@@ -7,4 +7,22 @@
     <link rel="stylesheet" href="public\css\header.css">
     <title>MAYEL</title>
 </head>
-<body></body>
+<body>
+    <ul>
+        <li>
+            <a>NOS BIERES</a>
+        </li>
+        <li>
+            <a>BRASSERIE</a>
+        </li>
+        <li>
+            <a><img src="public\images\logo_mayel_blanc.png"></a>
+        </li>
+        <li>
+            <a>FABRICATION</a>
+        </li>
+        <li>
+            <a>CONTACT</a>
+        </li>
+    </ul>
+</body>
