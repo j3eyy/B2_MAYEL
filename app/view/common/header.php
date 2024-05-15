@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="public\css\header.css">
     <title>MAYEL</title>
 </head>
-<body>
+<header>
+    <nav>
     <ul>
         <li>
             <a href="">NOS BIERES</a>
@@ -25,4 +26,5 @@
             <a href="">CONTACT</a>
         </li>
     </ul>
-</body>
+    </nav>
+</header>
