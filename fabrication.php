@@ -1,7 +1,7 @@
 <?php
 
 $nomDePage = "fabrication";
-$css_attribuee = "public\css\fabrication.css";
+$css_attribuee = "public/css/fabrication.css";
 
 // Construire la vue et l'injecter dans la variable $content
 ob_start();

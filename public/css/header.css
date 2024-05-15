@@ -1,13 +1,8 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 header {
     background-color: black;
 }
 
-li a {
+header li {
     display: flex;
     text-decoration: none;
     color: white;
