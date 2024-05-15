@@ -10,19 +10,19 @@
 <body>
     <ul>
         <li>
-            <a>NOS BIERES</a>
+            <a href="">NOS BIERES</a>
         </li>
         <li>
-            <a>BRASSERIE</a>
+            <a href="">BRASSERIE</a>
         </li>
         <li>
-            <a><img src="public\images\logo_mayel_blanc.png"></a>
+            <a href=""><img src="public\images\logo_mayel_blanc.png"></a>
         </li>
         <li>
-            <a>FABRICATION</a>
+            <a href="">FABRICATION</a>
         </li>
         <li>
-            <a>CONTACT</a>
+            <a href="">CONTACT</a>
         </li>
     </ul>
 </body>
