@@ -11,4 +11,3 @@ $content = ob_get_clean();
 // Génération du code HTML de la page à partir du layout
 include 'app/view/common/layout.php';
 ?> 
-afiooz
