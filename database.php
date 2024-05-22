@@ -29,7 +29,7 @@ $bieres = [
     6 => [
         'nom' => 'MAYEL INTENSE YUZU-LITCHI',
         'description'=> 'la bière ou tout à commencer',
-        'image' => 'public\images\chocolat.jpg',
+        'image' => 'public\images\fraiserhu.jpg',
     ],
 ];
 
@@ -39,4 +39,4 @@ $bieresPrestige = [
         'description'=> 'la bière ou tout à commencer',
         'image' => 'public\images\chocolat.jpg',
     ],
-]
+];
