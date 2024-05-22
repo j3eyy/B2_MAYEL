@@ -23,12 +23,6 @@
             </li>
 
             <li>
-                <div class="boutique">
-                    <a href="boutique.php">BOUTIQUE</a>
-                </div>
-            </li>
-
-            <li>
                 <div class="logo">
                     <a href="accueil.php"><img src="public\images\logo_mayel_blanc.png"></a>
                 </div>

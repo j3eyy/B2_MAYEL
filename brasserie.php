@@ -1,11 +1,11 @@
 <?php
 
 $nomDePage = "brasserie";
-$css_attribuee = "public/css/fabrication.css";
+$css_attribuee = "public/css/brasserie.css";
 
 // Construire la vue et l'injecter dans la variable $content
 ob_start();
-include 'app/view/fabrication.view.php';
+include 'app/view/brasserie.view.php';
 $content = ob_get_clean();
 
 // Génération du code HTML de la page à partir du layout
