@@ -30,7 +30,7 @@
 
             <li>
                 <div class="logo">
-                    <a href="accueil.php"><img src="images\logo.png"></a>
+                    <a href="accueil.php"><img src="public\images\logo_mayel_blanc.png"></a>
                 </div>
             </li>
 
