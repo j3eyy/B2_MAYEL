@@ -1,6 +1,6 @@
 <?php 
 
-$bieres = [
+$bieresIntense = [
     1 => [
         'nom' => 'MAYEL INTENSE CHOCOLAT',
         'description'=> 'la bière ou tout à commencer',
