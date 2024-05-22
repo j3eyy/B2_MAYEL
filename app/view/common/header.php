@@ -8,23 +8,43 @@
     <title>MAYEL</title>
 </head>
 <header>
-    <nav>
-    <ul>
-        <li>
-            <a href="">NOS BIERES</a>
-        </li>
-        <li>
-            <a href="">BRASSERIE</a>
-        </li>
-        <li>
-            <a href=""><img src="public\images\logo_mayel_blanc.png"></a>
-        </li>
-        <li>
-            <a href="">FABRICATION</a>
-        </li>
-        <li>
-            <a href="">CONTACT</a>
-        </li>
-    </ul>
-    </nav>
-</header>
+        <nav>
+        <ul>
+            <li>
+                <div class="biere">
+                    <a href="biere.php">NOS BIERES</a>
+                </div>
+            </li>
+
+            <li>
+                <div class="brasserie">
+                    <a href="brasserie.php">BRASSERIE</a>
+                </div>
+            </li>
+
+            <li>
+                <div class="boutique">
+                    <a href="boutique.php">BOUTIQUE</a>
+                </div>
+            </li>
+
+            <li>
+                <div class="logo">
+                    <a href="accueil.php"><img src="images\logo.png"></a>
+                </div>
+            </li>
+
+            <li>
+                <div class="fabrication">
+                    <a href="fabrication.php">FABRICATION</a>
+                </div>
+            </li>
+
+            <li>
+                <div class="contact">
+                    <a href="contact.php">CONTACT</a>
+                </div>
+            </li>
+        </ul>
+        </nav>
+    </header>

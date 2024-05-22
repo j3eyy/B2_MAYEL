@@ -1,0 +1,156 @@
+
+
+
+main {
+    background-color: black;
+    margin-top: -10%;
+}
+
+
+.intense {
+    color: white;
+    font-size: xx-large;
+    font-family: 'Futura LT', sans-serif;
+    margin-left: 42.2%;
+    margin-top: 10%;
+    margin-bottom: 1%;
+    padding: 10px;
+}
+
+
+.prestige {
+    color: white;
+    font-size: xx-large;
+    font-family: 'Futura LT', sans-serif;
+    margin-left: 41.6%;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+
+.kiwi {
+    margin-left: 8%;
+}
+
+
+.fraise {
+    margin-left: 41.5%;
+    margin-top: -25.5%;
+}
+
+
+.yuzu {
+    margin-left: 75%;
+    margin-top: -25.5%;
+}
+
+
+.hibiscus {
+    margin-left: 8%;
+    margin-top: 10%;
+}
+
+
+.chocolat {
+    margin-left: 41.5%;
+    margin-top: -25.8%;
+}
+
+
+.vanille {
+    margin-left: 75%;
+    margin-top: -25.5%;
+}
+
+
+.safran {
+    margin-left: 41.9%;
+    margin-bottom: 20%;
+}
+
+
+footer {
+    background-color: #333333;
+    margin-top: -6%;
+}
+
+
+footer li {
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+
+
+.fot_bieres {
+    text-decoration: underline;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+
+
+.fot_brasserie {
+    margin-left: 20.7%;
+}
+
+
+.fot_fabrication {
+    margin-left: 19.8%;
+}
+
+
+.fot_droits {
+    text-decoration: underline;
+    margin-left: 50%;
+    margin-top: -14.7%;
+}
+
+
+.fot_cookies {
+   margin-left: 43.9%;
+   margin-top: -12.3%;
+}
+
+
+.fot_mentions {
+    margin-left: 45.3%;
+    margin-top: -10%;
+}
+
+
+.fot_confidentialite {
+    margin-left: 45.8%;
+    margin-top: -7.7%;
+}
+
+
+.fot_contact {
+    text-decoration: underline;
+    margin-left: 78%;
+    margin-top: -14.8%;
+}
+
+
+.fot_instagram {
+    margin-left: 78.6%;
+    margin-top: -12%;
+}
+
+
+.insta_mayel {
+    margin-left: 76.3%;
+    margin-top: -4.4%;
+}
+
+
+.tous_droits {
+    margin-left: 68.8%;
+    margin-top: 2.5%;
+}
+
+
+.avertissement {
+    margin-left: 19.5%;
+    margin-top: 2%;
+    padding: 2%;
+}

@@ -2,6 +2,7 @@ header {
     background-color: black;
 }
 
+
 header li {
     display: flex;
     text-decoration: none;
@@ -12,4 +13,43 @@ header li {
 li img {
     height: 100px;
     width: auto;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Futura LT', sans-serif;
+    font-size: x-large;
+}
+
+
+.biere {
+    margin-left: 12%;
+    margin-bottom: -4.8%;
+    margin-top: 5%;
+}
+
+
+.brasserie {
+    margin-left: 29.8%;
+    margin-top: 2.5%;
+    margin-bottom: -20%;
+}
+
+
+.logo {
+    margin-left: 46%;
+}
+
+
+.fabrication {
+    margin-left: 62.5%;
+    margin-top: -5.2%;
+}
+
+
+.contact {
+    margin-left: 81.2%;
+    margin-top: -5.2%;
 }
