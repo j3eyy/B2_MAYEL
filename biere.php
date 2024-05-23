@@ -4,8 +4,8 @@ $nomDePage = "biere";
 $css = "biere.css";
 
 // Récupérer Les bières avec la base de donnée
-include 'app/model/connexionBD.php';
-include 'app/model/biere.model.php';
+include 'app/view/model/connexionBD.php';
+include 'app/biere.view.php';
 
 // Construire la vue et l'injecter dans la variable $content
 ob_start();

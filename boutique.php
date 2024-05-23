@@ -14,4 +14,11 @@ $content = ob_get_clean();
 // Génération du code HTML de la page à partir du layout
 include 'app/view/common/layout.php';
 
+$pdo = getDatabaseConnexion();
+$nbPages = showroom($pdo, 1);
+$numPage = 1;
 
+if (isset($_GET['page']) && ctype_digit($_GET['page']) && $_GET['page'] > 0 && $_GET['page']<=$nbPages) {
+
+    $numPage = $_GET['page'];
+}
