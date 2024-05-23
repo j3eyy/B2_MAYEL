@@ -1,7 +1,7 @@
 <?php
 
 function getDatabaseConnexion() {
-    $dsn = 'mysql:dbname=trombinoscope;host=localhost;charset=utf8';
+    $dsn = 'mysql:dbname=mayel;host=localhost;charset=utf8';
     $username = 'root';
     $password = '';
     

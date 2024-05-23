@@ -5,7 +5,7 @@ $css = "public/css/biere.css";
 
 // Récupérer Les bières avec la base de donnée
 include 'app/model/connexionBD.php';
-include 'app/model/trombi.model.php';
+include 'app/model/biere.model.php';
 
 // Construire la vue et l'injecter dans la variable $content
 ob_start();
