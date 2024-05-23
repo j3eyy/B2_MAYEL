@@ -30,7 +30,7 @@ li a:hover {
 }
 
 nav{
-    margin: auto;
+    margin: 0;
     display: flex;
     justify-content: center;
     
