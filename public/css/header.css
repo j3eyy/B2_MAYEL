@@ -4,9 +4,10 @@ header {
 
 
 nav li {
-    display: flex;
+    display: inline-flex;
     text-decoration: none;
     color: white;
+    padding:2em;
 }
 
 
@@ -23,4 +24,14 @@ a {
     font-size: x-large;
 }
 
+li a:hover {
+    color: #929292;
+    transition: 0.75s;
+}
 
+nav{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    
+}
