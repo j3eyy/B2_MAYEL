@@ -2,9 +2,9 @@
 
 //Bryan
 
-function getBeers(PDO $pdo, $nom, $description, $image): array {
-    $sql = "SELECT * FROM beers";
+function getProduit(PDO $pdo, $nom, $description, $image): array {
+    $sql = "SELECT * FROM produit";
     $stmt = $pdo->query($sql);
     $students = $stmt->fetchAll();
-    return $beers;
+    return $produit;
 }

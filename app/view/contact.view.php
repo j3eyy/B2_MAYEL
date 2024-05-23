@@ -11,13 +11,8 @@
         <section class="milieu">
             <div class="infos">
                     <p>
-                        Vous souhaitez visiter la brasserie ? Vous souhaitez organiser
-                        un événement particulier ? Vous souhaitez effectuer un partenariat
-                        avec la brasserie Mayel ? 
-                        <br>
-
-                        Décrivrez de manière claire votre projet en complétant le formulaire
-                        ci-dessous, ou contactez-nous directement!
+                    Si vous souhaitez visiter la brasserie, organiser un événement spécial ou établir un partenariat avec la Brasserie Mayel. <br>
+                    Décrivez clairement votre projet en remplissant le formulaire ci-dessous ou contactez-nous directement.<br>
                     </p>
                 </div>
                 <div class="formulaire">
@@ -42,20 +37,7 @@
                         <button class="gamme" type="submit">Envoyer</button>
 
                         <p>
-                            Les informations recueillies dans le questionnaire sont enregistrées
-                            dans un fichier informatisé par l'équipe, dans le cadre de votre
-                            demande d’informations sur  <br>
-
-                            Les données demandées sont nécessaires au traitement de votre demande.
-                            Les données seront exclusivement communiquées à La Brasserie Mayel.
-                            Elles sont conservées pendant une durée de 2 ans. Consultez notre politique
-                            de protection des données <br>
-
-                            Vous pouvez accéder aux données vous concernant, les rectifier,
-                            demander leur effacement ou exercer votre droit à la limitation du
-                            traitement de vos données. Pour exercer ces droits ou pour toute
-                            question sur le traitement de vos données dans ce dispositif,
-                            vous pouvez écrire à Brasserie Mayel <br>
+                            Les informations recueillies dans le questionnaire sont enregistrées dans un fichier informatisé par notre équipe, dans le cadre de votre demande d’informations. Les données demandées sont indispensables pour traiter votre demande et seront uniquement partagées avec La Brasserie Mayel. Elles seront conservées pendant une durée de 2 ans. Pour plus de détails, veuillez consulter notre politique de protection des données. Vous avez le droit d’accéder à vos données, de les rectifier, de demander leur effacement ou de limiter leur traitement. Pour exercer ces droits ou pour toute question concernant le traitement de vos données, veuillez écrire à Brasserie Mayel.
                         </p>
                     </form>
                 </div>
