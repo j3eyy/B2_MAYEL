@@ -22,3 +22,7 @@ if (isset($_GET['page']) && ctype_digit($_GET['page']) && $_GET['page'] > 0 && $
 
     $numPage = $_GET['page'];
 }
+
+$students = getBeersbyPage($pdo, $numPage);
+
+$page_title = 'Boutique';
