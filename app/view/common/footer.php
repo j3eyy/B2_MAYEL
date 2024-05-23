@@ -21,7 +21,7 @@
 
         <li>
             <div class="fot_logo">
-                <a href=""><img src="images/logo.png"></a>
+                <a href=""><img src="public/images/logo.png"></a>
             </div>
         </li>
 

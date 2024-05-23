@@ -1,31 +1,27 @@
-
-<!doctype html>
+<!DOCTYPE html>
 
 
 <html lang="fr">
 
 
-	<head>
+<head>
+    <meta charset="utf-8">
+    <title>Mayel</title>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <link href="https://fonts.cdnfonts.com/css/futura-lt" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/futura-std-4" rel="stylesheet">
 
-		<meta charset="utf-8">
-		<title>Mayel - Nos bières</title>
-        <link rel="shortcut icon" href="images/logo.png" />
-		<meta name="viewport" content="initial-scale=1.0; width=device-width">
-		<link rel="stylesheet" href="Nos bières.css" />
-        <link href="https://fonts.cdnfonts.com/css/futura-lt" rel="stylesheet">
-        <link href="https://fonts.cdnfonts.com/css/futura-std-4" rel="stylesheet">
-
-	</head>
-    
-    <?php if (isset($css)): ?>
+    <link rel="stylesheet" href="public/css/header.css">
+    <link rel="stylesheet" href="public/css/footer.css">
+    <?php if (isset($css)) : ?>
         <link rel="stylesheet" href="<?= $css ?>">
     <?php endif ?>
     <title><?= $nomDePage ?></title>
 </head>
-<
+
 
 <header>
-        <nav>
+    <nav>
         <ul>
             <li>
                 <div class="biere">
@@ -57,5 +53,5 @@
                 </div>
             </li>
         </ul>
-        </nav>
-    </header>
+    </nav>
+</header>
