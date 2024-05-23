@@ -13,7 +13,6 @@
 Le lavage et la filtration de la maische suivent, où le moût est séparé de la matière solide, puis lavé pour extraire les sucres et les enzymes du grain. Une fois le moût porté à ébullition, les houblons sont ajoutés, suivis du cacao pour une touche exquise de chocolat. Cette étape permet non seulement de stériliser la préparation mais aussi de libérer les arômes et les amertumes des houblons, tandis que le cacao ajoute une profondeur de saveur somptueuse à notre breuvage.
 
 Après l'ébullition, le moût est rapidement refroidi pour préparer son incorporation des levures, qui joueront un rôle vital dans la fermentation. Une fois ensemencé, le moût entre dans une phase de fermentation haute, où les levures transforment les sucres en éthanol et en CO2, apportant également une palette riche en saveurs à notre bière. Pendant environ 36 jours, cette fermentation prendra place, nourrissant notre breuvage en devenant une création pleine de caractère et de complexité. La bière au chocolat qui en résulte sera un véritable délice pour les sens, mariant habilement les notes riches de malt et de cacao avec l'amertume subtile des houblons, pour une expérience de dégustation véritablement exceptionnelle.
-  
     </p>
 
     <p>
