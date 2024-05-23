@@ -1,4 +1,4 @@
-<?php
+<?php   // Bryan
 
 $nomDePage = "boutique";
 $css = "public/css/boutique.css";
