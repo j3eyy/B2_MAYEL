@@ -58,9 +58,9 @@
     </ul>
 </div>
 
-<?php foreach ($beers as $num => $aBeers): ?>
+<?php foreach ($beers as $aBeers): ?>
     <div class="carte">
-        <a href="fiche.php?num=<?= $num ?>">
+        <a href="biere.php?num=<?= $aBeers['id_P'] ?>">
             <?php
             if (isset($aStudent['photo'])) {
                 $photo = 'groupe' . $aBeers['group'] . '/small/' . $aStudent['photo'];
