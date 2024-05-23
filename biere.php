@@ -1,7 +1,7 @@
 <?php
 
 $nomDePage = "biere";
-$css = "public/css/biere.css";
+$css = "biere.css";
 
 // Récupérer Les bières avec la base de donnée
 include 'app/model/connexionBD.php';

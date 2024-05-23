@@ -1,5 +1,6 @@
 <footer>
-<nav>
+
+
     <ul>
         <li>
             <div class="fot_bieres">
@@ -79,7 +80,7 @@
             </div>
         </li>
     </ul>
-</nav>
+
     </footer>
-</body>
+
 </html>

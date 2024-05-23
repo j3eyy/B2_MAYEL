@@ -1,7 +1,7 @@
 <?php   // Bryan
 
 $nomDePage = "boutique";
-$css = "public/css/boutique.css";
+$css = "boutique.css";
 
 // Construire la vue et l'injecter dans la variable $content
 ob_start();

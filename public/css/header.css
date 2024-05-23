@@ -3,8 +3,8 @@ header {
 }
 
 
-ul {
-    display: inline-flex;
+nav li {
+    display: flex;
     text-decoration: none;
     color: white;
 }
