@@ -1,7 +1,7 @@
 <?php
 
 function getDatabaseConnexion() {
-    $dsn = 'mysql:dbname=mayel;host=localhost;charset=utf8';
+    $dsn = 'mysql:dbname=site de bières;host=localhost;charset=utf8';
     $username = 'root';
     $password = '';
     
@@ -12,7 +12,7 @@ function getDatabaseConnexion() {
     
     } catch (PDOException $e) {
         $_SESSION["message"] = "Erreur lors de la connexion à la base de données.";
-        header('Location: biere.php');
+        header('Location: error.php');
         exit; 
     }
 
