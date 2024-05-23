@@ -1,7 +1,7 @@
 <?php
 
 $nomDePage = "contact";
-$css_attribuee = "public/css/contact.css";
+$css = "contact.css";
 
 ob_start();
 include 'app/view/contact.view.php';
