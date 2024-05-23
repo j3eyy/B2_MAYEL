@@ -13,3 +13,4 @@ include 'app/view/common/layout.php';
 
 include 'app/model/connexionBD.php';
 include 'app/model/biere.model.php';
+

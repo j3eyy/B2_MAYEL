@@ -58,12 +58,12 @@
     </ul>
 </div>
 
-<?php foreach ($beers as $num => $abeers): ?>
+<?php foreach ($beers as $num => $aBeers): ?>
     <div class="carte">
         <a href="fiche.php?num=<?= $num ?>">
             <?php
             if (isset($aStudent['photo'])) {
-                $photo = 'groupe' . $aStudent['group'] . '/small/' . $aStudent['photo'];
+                $photo = 'groupe' . $aBeers['group'] . '/small/' . $aStudent['photo'];
             } else {
                 $photo = 'defaut.png';
             }
