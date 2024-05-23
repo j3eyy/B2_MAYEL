@@ -1,86 +1,98 @@
 
-footer {
-    background-color: #333333;
-    margin-top: -6%;
+li#reseau {
+    display: inline-block;
 }
 
 
-footer li {
-    display: flex;
-    text-decoration: none;
+
+footer {
+    background-color: black;
     color: white;
 }
 
+*{
 
-.fot_bieres {
-    text-decoration: underline;
-    margin-left: 20%;
-    margin-top: 3%;
+    box-sizing: border-box;
+    padding: 0;
+    margin:0 ;
+    font-family:sans-serif;
+    font-weight: 400;
+    font-style: bold;
+
 }
 
 
-.fot_brasserie {
-    margin-left: 20.7%;
+.foot1 {
+    position: relative;
+ 
+    padding: 0px 0px 0px 0px;
+    height: 249px;
+    margin: 0;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
 }
 
 
-.fot_fabrication {
-    margin-left: 19.8%;
+#reseau {
+    border: rgb(255, 255, 255) solid 1px;
+    border-radius: 394px;
+    display: inline-block;
+    background-color: white;
+}
+
+#pdufooter {
+    color: white;
+    margin: auto;
+}
+
+.partiedroite {
+    margin :35px;
+    font-size: 14px;
+
+}
+
+.partiegauche {
+    margin-top: 50px;
+    justify-content: flex-end;
+    color: white;
+    margin-right: 72px;
+}
+
+#rempla {
+    font-size: 50px;
+    color: white;
+    font-family: roc-grotesk, sans-serif;
+    font-weight: 400;
+    font-style: bold;
+}
+
+button {
+    border-radius: 75px;
+    height: 25%;
+    width: 35%;
+    /* margin-top: 5px;
+    margin-bottom: 5px; */
+    font-family: roc-grotesk, sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 15px;
+    text-decoration: none;
 }
 
 
-.fot_droits {
-    text-decoration: underline;
-    margin-left: 50%;
-    margin-top: -14.7%;
+#mention {
+    margin-top: 95px;
+    font-size: 10px;
+    color: white;
 }
 
-
-.fot_cookies {
-   margin-left: 43.9%;
-   margin-top: -12.3%;
+#imgfoot {
+    height: 63px;
+    width: auto;
 }
 
-
-.fot_mentions {
-    margin-left: 45.3%;
-    margin-top: -10%;
-}
-
-
-.fot_confidentialite {
-    margin-left: 45.8%;
-    margin-top: -7.7%;
-}
-
-
-.fot_contact {
-    text-decoration: underline;
-    margin-left: 78%;
-    margin-top: -14.8%;
-}
-
-
-.fot_instagram {
-    margin-left: 78.6%;
-    margin-top: -12%;
-}
-
-
-.insta_mayel {
-    margin-left: 76.3%;
-    margin-top: -4.4%;
-}
-
-
-.tous_droits {
-    margin-left: 68.8%;
-    margin-top: 2.5%;
-}
-
-
-.avertissement {
-    margin-left: 19.5%;
-    margin-top: 2%;
-    padding: 2%;
+#pbutton {
+    text-decoration: none;
+    margin: auto;
 }

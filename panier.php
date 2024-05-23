@@ -1,7 +1,7 @@
 <?php
 
 $nomDePage = "panier";
-$css_attribuee = "public/css/panier.css";
+$css = "public/css/panier.css";
 
 // Construire la vue et l'injecter dans la variable $content
 ob_start();

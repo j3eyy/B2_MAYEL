@@ -1,7 +1,7 @@
 <?php   // Bryan
 
 $nomDePage = "boutique";
-$css = "public/css/boutique.css";
+$css = "boutique.css";
 
 include 'app/view/model/connexionBD.php';
 include 'app/view/model/biere.model.php';
