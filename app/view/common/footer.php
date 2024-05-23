@@ -1,86 +1,30 @@
+
 <footer>
+    <section class="foot1">
+        <div class="partiedroite">
+            <p><div id="rempla">MAYEL</div></p>
+            <button ><a id="pbutton" href="contact.php">CONTACT</a></button>
+            <p id="pdufooter">3 rue Michel le Comte, 75003 Paris</p>
+            <p id="pdufooter">mayelbiere.contact@gmail.com</p>
+            <p id="pdufooter">01 23 34 56 78 </p>
+            <p>L'abus d'alcool est dangereux pour la santé, à consommer avec modération</p>
+        </div>
 
+    <section class="partiegauche">
+        <div>
+    
+            <ul>
+                <li id="reseau"><a href=""><img id="imgfoot" src="public\images\Instagram.png"></a></li>
+            </ul>
+        </div>
 
-    <ul>
-        <li>
-            <div class="fot_bieres">
-                <a>NOS BIERES</a>
-            </div>
-        </li>
-
-        <li>
-            <div class="fot_brasserie">
-                <a href="">BRASSERIE</a>
-            </div>
-        </li>
-
-        <li>
-            <div class="fot_fabrication">
-                <a href="">FABRICATION</a>
-            </div>
-        </li>
-
-        <li>
-            <div class="fot_logo">
-                <a href=""><img src="public/images/logo.png"></a>
-            </div>
-        </li>
-
-        <li>
-            <div class="fot_droits">
-                <a>DROITS</a>
-            </div>
-        </li>
-
-        <li>
-            <div class="fot_cookies">
-                <a href="">PARAMÈTRES COOKIES</a>
-            </div>
-        </li>
-
-        <li>
-            <div class="fot_mentions">
-                <a href="">MENTION LEGALES</a>
-            </div>
-        </li>
-
-        <li>
-            <div class="fot_confidentialite">
-                <a href="">CONFIDENTIALITE</a>
-            </div>
-        </li>
-
-        <li>
-            <div class="fot_contact">
-                <a>CONTACT</a>
-            </div>
-        </li>
-
-        <li>
-            <div class="fot_instagram">
-                <a href="https://www.instagram.com/mayel.brasserie/"><img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/instagram-white-icon.png"></a>
-            </div>
-        </li>
-
-        <li>
-            <div class="insta_mayel">
-                <a>mayel.brasserie</a>
-            </div>
-        </li>
-
-        <li>
-            <div class="tous_droits">
-                <a>© 2024 Mayel, Tous droits réservés.</a>
-            </div>
-        </li>
-
-        <li>
-            <div class="avertissement">
-                <a>L'abus d'alcool est dangereux pour la santé. À consommer avec modération.</a>
-            </div>
-        </li>
-    </ul>
-
-    </footer>
-
-</html>
+        <div id="mention">
+            <p id="pdufooter">copyright 2023-2024 - Tous droits réservés. Mentions légales</p>
+            <ul>
+                <li id="reseau"><a href="">COOKIES</a></li>
+            </ul>
+        </div>
+    </section>
+    </section>
+    
+</footer>
