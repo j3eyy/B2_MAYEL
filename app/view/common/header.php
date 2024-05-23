@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="public/css/header.css">
     <link rel="stylesheet" href="public/css/footer.css">
     <?php if (isset($css)) : ?>
-        <link rel="stylesheet" href="<?= $css ?>">
+        <link rel="stylesheet" href="public/css/<?= $css ?>">
     <?php endif ?>
     <title><?= $nomDePage ?></title>
 </head>
