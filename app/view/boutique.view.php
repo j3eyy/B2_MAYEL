@@ -45,3 +45,31 @@
 
         </br>
     </main>
+
+
+
+    <div class="pagination">
+    <ul>
+    <?php
+        for ($i = 1; $i <= $nbPages; $i++) {
+            echo "<li><a href='boutique.php?page=$i'>$i</a></li>";
+        }
+    ?>
+    </ul>
+</div>
+
+<?php foreach ($beers as $num => $abeers): ?>
+    <div class="carte">
+        <a href="fiche.php?num=<?= $num ?>">
+            <?php
+            if (isset($aStudent['photo'])) {
+                $photo = 'groupe' . $aStudent['group'] . '/small/' . $aStudent['photo'];
+            } else {
+                $photo = 'defaut.png';
+            }
+            ?>
+            <figure class="photo"><img src="public/images/<?= $photo ?>" alt="photo de <?= $aStudent['firstname'] ?> <?= $aStudent['lastname'] ?>">
+            </figure>
+        </a>
+    </div>
+<?php endforeach ?>
