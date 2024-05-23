@@ -62,10 +62,10 @@
     <div class="carte">
         <a href="biere.php?num=<?= $aBeers['id_P'] ?>">
             <?php
-            if (isset($aStudent['photo'])) {
+            if (isset($aBeears['photo'])) {
                 $photo = 'groupe' . $aBeers['group'] . '/small/' . $aStudent['photo'];
             } else {
-                $photo = 'defaut.png';
+                $photo = '';
             }
             ?>
             <figure class="photo"><img src="public/images/<?= $photo ?>" alt="photo de <?= $aStudent['firstname'] ?> <?= $aStudent['lastname'] ?>">

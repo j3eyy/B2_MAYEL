@@ -6,6 +6,7 @@ $css = "public/css/boutique.css";
 include 'app/view/model/connexionBD.php';
 include 'app/view/model/biere.model.php';
 
+
 // Construire la vue et l'injecter dans la variable $content
 ob_start();
 include 'app/view/boutique.view.php';
