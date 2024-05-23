@@ -24,8 +24,8 @@
     <nav>
         <ul>
             <li>
-                <div class="biere">
-                    <a href="biere.php">NOS BIERES</a>
+                <div class="boutique">
+                    <a href="boutique.php">NOS BIERES</a>
                 </div>
             </li>
 
