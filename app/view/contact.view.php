@@ -15,26 +15,19 @@
 </html>
 <main>
     <div class="debut">
-        <h1>Psyché</h1>
-        <h2>Vos sentiments à l'état pur.</h2>
+        <h1>Mayel</h1>
+        <h2>Il ne suffit que d'une Mayel pour atteindre le ciel.</h2>
     </div>
     <div class="infos">
-        <p>
-Dans vos moments d'émotions,<br>
-elle vous accompagne,<br>
-Pleine de compassion,<br>
-vos douleurs elle les soignent,<br>
-<br>
-Dans vos joies vous fait sourire,<br>
-et vous invite à vous réjouir,<br>
-Dans vos douleurs,<br>
-elle apaise vos peurs<br>
-<br>
-Empreinte de douceur,<br>
-elle vous réchauffe le coeur,<br>
-Psyché, rends unique et capture,<br>
-vos sentiments à l'état pur.<br>
-        </p>
+                    <p>
+                        Vous souhaitez visiter la brasserie ? Vous souhaitez organiser
+                        un événement particulier ? Vous souhaitez effectuer un partenariat
+                        avec la brasserie Mayel ? 
+                        <br>
+
+                        Décrivrez de manière claire votre projet en complétant le formulaire
+                        ci-dessous, ou contactez-nous directement!
+                    </p>
 
         <section class="milieu">
 
@@ -53,7 +46,22 @@ vos sentiments à l'état pur.<br>
                     <textarea id="message" name="message" placeholder="Entrez votre message" required></textarea>
 
                     <button class="gamme" type="submit">Envoyer</button>
+                    <p>
+                            Les informations recueillies dans le questionnaire sont enregistrées
+                            dans un fichier informatisé par l'équipe, dans le cadre de votre
+                            demande d’informations sur  <br>
 
+                            Les données demandées sont nécessaires au traitement de votre demande.
+                            Les données seront exclusivement communiquées à La Brasserie Mayel.
+                            Elles sont conservées pendant une durée de 2 ans. Consultez notre politique
+                            de protection des données <br>
+
+                            Vous pouvez accéder aux données vous concernant, les rectifier,
+                            demander leur effacement ou exercer votre droit à la limitation du
+                            traitement de vos données. Pour exercer ces droits ou pour toute
+                            question sur le traitement de vos données dans ce dispositif,
+                            vous pouvez écrire à Brasserie Mayel <br>
+                        </p>
 
                 </form>
             </div>
@@ -64,7 +72,7 @@ vos sentiments à l'état pur.<br>
     <div id="RS2">
             <h2>Nous rencontrer ? </h2>
         </div>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2636.8855087495062!2d2.569094076745706!3d48.631172916669236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e5e3a008e29283%3A0x2951926768f8937!2s240%20Rue%20de%20la%20Motte%2C%2077550%20Moissy-Cramayel!5e0!3m2!1sfr!2sfr!4v1716495993604!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src= <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.805436614629!2d2.354163576756159!3d48.86192040045773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e04b0d02865%3A0x9b569100157a57e8!2s3%20Rue%20Michel%20le%20Comte%2C%2075003%20Paris!5e0!3m2!1sfr!2sfr!4v1716543631112!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
 
     <div class="nous-suivre">
@@ -73,7 +81,7 @@ vos sentiments à l'état pur.<br>
         </div>
         <div id="RS1">
             <div class="nous"><img src="public/images/instagram.webp" alt="le compte instagram de la marque ">Notre Compte Instagram</div>
-            <div class="nous"><img src="public/images/mail.webp"alt="l'adresse e-mail de notre marque">psychelabiere@gmail.com</div>
+            <div class="nous"><img src="public/images/mail.webp"alt="l'adresse e-mail de notre marque">mayelbrasserie@gmail.com</div>
         </div>
         
     </div>
