@@ -1,67 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" type="text/css" href="../../public/css/contact.css" />
+</head>
 
 <body>
-    <main>
-        <div class="debut">
-            <h1>MAYEL</h1>
-            <h2>Des questions, n'hésitez pas à nous contacter !</h2>
-        </div>
 
+
+
+</html>
+<main>
+    <div class="debut">
+        <h1>Psyché</h1>
+        <h2>Vos sentiments à l'état pur.</h2>
+    </div>
+    <div class="infos">
+        <p>
+Dans vos moments d'émotions,<br>
+elle vous accompagne,<br>
+Pleine de compassion,<br>
+vos douleurs elle les soignent,<br>
+<br>
+Dans vos joies vous fait sourire,<br>
+et vous invite à vous réjouir,<br>
+Dans vos douleurs,<br>
+elle apaise vos peurs<br>
+<br>
+Empreinte de douceur,<br>
+elle vous réchauffe le coeur,<br>
+Psyché, rends unique et capture,<br>
+vos sentiments à l'état pur.<br>
+        </p>
 
         <section class="milieu">
-            <div class="infos">
-                    <p>
-                    Si vous souhaitez visiter la brasserie, organiser un événement spécial ou établir un partenariat avec la Brasserie Mayel. <br>
-                    Décrivez clairement votre projet en remplissant le formulaire ci-dessous ou contactez-nous directement.<br>
-                    </p>
-                </div>
-                <div class="formulaire">
-                    <form action="http://divergence.mmibut1.org/app/model/contactmodel.php" method="POST">
-                        <label for="name"> Nom :</label>
-                        <input type="text" id="name" name="nom_contact" placeholder="Entrez votre nom" required>
 
-                        <label for="name"> Prénom :</label>
-                        <input type="text" id="name" name="prenom_contact" placeholder="Entrez votre prénom" required>
+            <div class="formulaire">
+                <form action="register_contact.php" method="POST">
+                    <label for="nom"> Nom :</label>
+                    <input type="text" id="nom" name="nom" placeholder="Entrez votre nom" required>
 
-                        <label for="email"> Email :</label>
-                        <input type="email" id="email" name="email_contact" placeholder="Entrez votre email" required>
+                    <label for="prenom"> Prénom :</label>
+                    <input type="text" id="prenom" name="prenom" placeholder="Entrez votre prénom" required>
 
-                        <label for="message"> Message :</label>
-                        <textarea id="message" name="message_contact" placeholder="Entrez votre message" required></textarea>
+                    <label for="email"> Email :</label>
+                    <input type="email" id="email" name="email" placeholder="Entrez votre email" required>
 
-                        <label for="subscribe">
-                            <input type="checkbox" id="subscribe" name="subscribe">
-                            Recevoir des notifications par email
-                        </label>
+                    <label for="message"> Message :</label>
+                    <textarea id="message" name="message" placeholder="Entrez votre message" required></textarea>
 
-                        <button class="gamme" type="submit">Envoyer</button>
+                    <button class="gamme" type="submit">Envoyer</button>
 
-                        <p>
-                            Les informations recueillies dans le questionnaire sont enregistrées dans un fichier informatisé par notre équipe, dans le cadre de votre demande d’informations. Les données demandées sont indispensables pour traiter votre demande et seront uniquement partagées avec La Brasserie Mayel. Elles seront conservées pendant une durée de 2 ans. Pour plus de détails, veuillez consulter notre politique de protection des données. Vous avez le droit d’accéder à vos données, de les rectifier, de demander leur effacement ou de limiter leur traitement. Pour exercer ces droits ou pour toute question concernant le traitement de vos données, veuillez écrire à Brasserie Mayel.
-                        </p>
-                    </form>
-                </div>
+
+                </form>
+            </div>
         </section>
+    </div>
 
-        <div class="nous-suivre">
-            <div id="RS1">
-            <div class="nous"><img src="public/pictures/tel.png" alt="phone">06 64 06 07 84</div>
-            <div class="nous"><img src="public/pictures/MAIL.jpg" alt="mail">contact@divergencebrasserie.fr</div>
-            </div>
-            <div id="RS2">
-            <div class="nous"><a href="https://www.facebook.com/profile.php?id=100091975442786" target="_blank"><img src="public/pictures/facebook.png" alt="Facebook"></a></div>
-            <div class="nous"><a href="https://www.instagram.com/divergence_brasserie/"  target="_blank"><img src="Instagram.png" alt="Instagram"></a></div>
-            <div class="nous"><img src="public/pictures/Tik-Tok.png" alt="Tiktok"></div>
-            <div class="nous"><img src="public/pictures/Youtube.png" alt="Youtube"></div>
-            </div>
+    <section class="carte">
+    <div id="RS2">
+            <h2>Nous rencontrer ? </h2>
         </div>
-
-
-        <section class="carte">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.383029543659!2d2.3296967755294933!3d48.86997429989246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e30ef50edeb%3A0xdef0196297f469a2!2s28%20Rue%20de%20la%20Paix%2C%2075002%20Paris!5e0!3m2!1sfr!2sfr!4v1682622599564!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2636.8855087495062!2d2.569094076745706!3d48.631172916669236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e5e3a008e29283%3A0x2951926768f8937!2s240%20Rue%20de%20la%20Motte%2C%2077550%20Moissy-Cramayel!5e0!3m2!1sfr!2sfr!4v1716495993604!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
+
+    <div class="nous-suivre">
+        <div id="RS2">
+            <h2>Vous souhaitez nous contacter ?</h2>
+        </div>
+        <div id="RS1">
+            <div class="nous"><img src="public/images/instagram.webp" alt="le compte instagram de la marque ">Notre Compte Instagram</div>
+            <div class="nous"><img src="public/images/mail.webp"alt="l'adresse e-mail de notre marque">psychelabiere@gmail.com</div>
+        </div>
+        
+    </div>
+
+
+
+
 
     </main>
 </body>
-</html>
