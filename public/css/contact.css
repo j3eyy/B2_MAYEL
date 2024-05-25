@@ -15,14 +15,6 @@
 
 
 
-.debut{
-    background: black;
-    padding: 2%;
-    width: 45%;
-    margin: auto;
-    align-items: center;text-align: center;
-
-}
 
 .debut h1{
     color: rgb(255, 255, 255);
@@ -127,7 +119,7 @@ form {
   }
 
 
-  form p{
+  .formulaire {
     color: rgb(255, 255, 255);
 	font-family: 'fibra thin';
 	font-size: 11px;
@@ -167,11 +159,6 @@ form {
     margin-bottom: 30px;
 }
 
-#RS2 img:hover {
-    width: 85px;
-    height: 85px;
-    border: solid 4px black;
-}
 
 
 iframe{

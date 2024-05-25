@@ -75,16 +75,7 @@
     <iframe src= <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.805436614629!2d2.354163576756159!3d48.86192040045773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e04b0d02865%3A0x9b569100157a57e8!2s3%20Rue%20Michel%20le%20Comte%2C%2075003%20Paris!5e0!3m2!1sfr!2sfr!4v1716543631112!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
 
-    <div class="nous-suivre">
-        <div id="RS2">
-            <h2>Vous souhaitez nous contacter ?</h2>
-        </div>
-        <div id="RS1">
-            <div class="nous"><img src="public/images/instagram.webp" alt="le compte instagram de la marque ">Notre Compte Instagram</div>
-            <div class="nous"><img src="public/images/mail.webp"alt="l'adresse e-mail de notre marque">mayelbrasserie@gmail.com</div>
-        </div>
-        
-    </div>
+</div>
 
 
 
