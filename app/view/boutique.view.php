@@ -66,27 +66,27 @@
         <h1>INTENSE</h1>
             
         <div class="kiwi">
-            <a href="Pages des bières/Kiwi.html"><img src="images/kiwimenthe.jpg" width=20% /></a>
+            <a href="Pages des bières/Kiwi.html"><img src="app/public/images/kiwimenthe.jpg" width=20% /></a>
         </div>
 
         <div class="fraise">
-            <a href="Pages des bières/Fraise.html"><img src="images/fraiserhu.jpg" width=31% /></a>
+            <a href="Pages des bières/Fraise.html"><img src="app/public/images/fraiserhu.jpg" width=20% /></a>
         </div>
 
         <div class="yuzu">
-            <a href="Pages des bières/Yuzu.html"><img src="images/yuzulitchi.jpg" width=73% /></a>
+            <a href="Pages des bières/Yuzu.html"><img src="app/public/images/yuzulitchi.jpg" width=20% /></a>
         </div>
 
         <div class="hibiscus">
-            <a href="Pages des bières/Hibiscus.html"><img src="images/hibiscus.jpg" width=20% /></a>
+            <a href="Pages des bières/Hibiscus.html"><img src="app/public/images/hibiscus.jpg" width=20% /></a>
         </div>
 
         <div class="chocolat">
-            <a href="Pages des bières/Chocolat.html"><img src="images/chocolat.jpg" width=31.2% /></a>
+            <a href="Pages des bières/Chocolat.html"><img src="app/public/images/chocolat.jpg" width=20% /></a>
         </div>
 
         <div class="vanille">
-            <a href="Pages des bières/Vanille.html"><img src="images/vanille.jpg" width=73.5% /></a>
+            <a href="Pages des bières/Vanille.html"><img src="app/public/images/vanille.jpg" width=20% /></a>
         </div>
 
         <div class="prestige">
@@ -94,7 +94,7 @@
         </div>
 
         <div class="safran">
-            <a href="Pages des bières/Safran.html"><img src="images/safran.jpg" width=30%/></a>
+            <a href="Pages des bières/Safran.html"><img src="app/public/images/safran.jpg" width=20%/></a>
         </div>
     </div>
 

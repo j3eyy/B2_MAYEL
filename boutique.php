@@ -1,11 +1,15 @@
 <?php
 session_start();
 
-$nomDePage = "showroom";
+$nomDePage = "Boutique";
 $css = "boutique.css";
 
 include 'app/model/connexionBD.php';
 include 'app/model/biere.model.php';
+
+
+$pdo = getDatabaseConnexion();
+
 
 
 if(isset($_SESSION['avertissement'])) {
@@ -14,7 +18,7 @@ if(isset($_SESSION['avertissement'])) {
 }
 
 
-$page_title = 'Showroom';
+$page_title = 'boutique';
 
 
 ob_start();
