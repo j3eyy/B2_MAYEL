@@ -1,6 +1,8 @@
 <?php
 session_start();
 
+$nomDePage = "showroom";
+$css = "boutique.css";
 
 include 'app/model/connexionBD.php';
 include 'app/model/biere.model.php';
