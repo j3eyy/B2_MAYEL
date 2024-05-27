@@ -232,3 +232,7 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+INSERT INTO `produit` (`photo`) VALUES
+('kiwimenthe.jpg'),('fraiserhu.jpg'),('yuzulitchi.jpg'),('hibiscus.jpg'),('chocolat.jpg'),('vanille.jpg'),('safran.jpg');
+COMMIT;
