@@ -62,9 +62,8 @@
             @import url('https://fonts.cdnfonts.com/css/futura-std-4');
         </style>
 
-        <div class="intense">
-            <h1>INTENSE</h1>
-        </div>
+    <div class="intense">
+        <h1>INTENSE</h1>
             
         <div class="kiwi">
             <a href="Pages des bières/Kiwi.html"><img src="images/kiwimenthe.jpg" width=20% /></a>
@@ -97,6 +96,7 @@
         <div class="safran">
             <a href="Pages des bières/Safran.html"><img src="images/safran.jpg" width=30%/></a>
         </div>
+    </div>
 
         </br>
     </main>
