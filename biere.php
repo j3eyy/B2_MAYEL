@@ -12,8 +12,8 @@ if (empty($_GET['page']) || !ctype_digit($_GET['page']) || $_GET['page'] < 1) {
 
 $numStudent = intval($_GET['num']);
 
-$student = getBiere(getDatabaseConnexion(), $numStudent);
-$page_title = 'Trombinoscope - ' . $student['firstname']  . ' ' . $student['lastname'];
+$biere = getBiere(getDatabaseConnexion(), $numStudent);
+$page_title = 'Bière - ' . $biere['firstname']  . ' ' . $biere['lastname'];
 
 
 // 2 - Construire la vue et l'injecter dans la variable $content
