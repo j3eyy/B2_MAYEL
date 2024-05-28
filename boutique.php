@@ -14,9 +14,6 @@ if(isset($_SESSION['message'])) {
     unset($_SESSION['message']);
 }
 
-$pdo = getDatabaseConnexion();
-$nbPages = getNbBieres($pdo, 16);
-
 
 $pdo = getDatabaseConnexion();
 
