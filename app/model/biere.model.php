@@ -2,9 +2,9 @@
 
 //Bryan
 
-function getProduit(PDO $pdo, $nom, $description, $image): array {
+function getProduit(PDO $pdo, $nom, $description, $image) {
     $sql = "SELECT * FROM produit";
-    $stmt = $pdo->query($sql);
-    $students = $stmt->fetchAll();
+    $stmt = $pdo->prepare($sql);
+    $produit = $stmt->fetchColumn();
     return $produit;
 }
