@@ -15,14 +15,12 @@ if(isset($_SESSION['message'])) {
 }
 
 
-$pdo = getDatabaseConnexion();
+if (isset($_GET['page']) && ctype_digit($_GET['page']) && $_GET['page'] > 0 && $_GET['page']<=$nbPages) {
 
-
-
-if(isset($_SESSION['avertissement'])) {
-    $message = $_SESSION['avertissement'];
-    unset($_SESSION['avertissement']);
+    $numPage = $_GET['page'];
 }
+
+$pdo = getDatabaseConnexion();
 
 
 $page_title = 'boutique';
