@@ -5,6 +5,16 @@ session_start();
 include 'app/model/connexionBD.php';
 include 'app/model/biere.model.php';
 
+if (empty($_GET['page'])  !ctype_digit($_GET['page'])  $_GET['page'] < 1) {
+    $_SESSION["message"] = 'Erreur de connexion.';
+    header('Location: accueil.php');
+    exit;
+}
+
+$numStudent = intval($_GET['num']);
+
+$biere = getBiere(getDatabaseConnexion(), $numStudent);
+$page_title = 'Bière - ' . $biere['firstname']  . ' ' . $biere['lastname'];
 
 
 
