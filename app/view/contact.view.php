@@ -15,25 +15,12 @@
 </html>
 <main>
     <div class="debut">
-        <h1>Psyché</h1>
-        <h2>Vos sentiments à l'état pur.</h2>
+        <h1>Mayel</h1>
+        <h2>Il ne suffit que d'une Mayel pour atteindre le ciel.</h2>
     </div>
     <div class="infos">
         <p>
-Dans vos moments d'émotions,<br>
-elle vous accompagne,<br>
-Pleine de compassion,<br>
-vos douleurs elle les soignent,<br>
-<br>
-Dans vos joies vous fait sourire,<br>
-et vous invite à vous réjouir,<br>
-Dans vos douleurs,<br>
-elle apaise vos peurs<br>
-<br>
-Empreinte de douceur,<br>
-elle vous réchauffe le coeur,<br>
-Psyché, rends unique et capture,<br>
-vos sentiments à l'état pur.<br>
+        Il ne suffit que d'une Mayel pour atteindre le ciel.
         </p>
 
         <section class="milieu">
