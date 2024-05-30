@@ -3,21 +3,21 @@
     <div class="gauche">
         <figure class="big_photo">
             <?php
-            if (isset($aShowroom['photo'])) {
-                $photo = 'groupe' . $aShowroom['group'] . '/big/' . $aShowroom['photo'];
+            if (isset($produit['photo'])) {
+                $photo = 'groupe' . $produit['group'] . '/big/' . $produit['photo'];
             } else {
                 $photo = 'defaut.png';
             }
             ?>
-            <img src="public/images/<?= $photo ?>" alt="photo de <?= $aShowroom['firstname'] ?> <?= $aShowroom['lastname'] ?>">
+            <img src="public/images/<?= $photo ?>" alt="photo de <?= $produit['Libelle'] ?>">
         </figure>
     </div>
     <div class="detail">
-        <p class="nom"><?= $aShowroom['firstname'] ?> <span><?= $aShowroom['lastname'] ?></span></p>
-        <p class="ddn"><?= $aShowroom['birthdate'] ?></p>
-        <p class="groupe">groupe <span><?= $aShowroom['group'] ?></span></p>
+        <p class="gout"><?= $produit['Libelle'] ?>
+        <p class="gamme"><?= $produit['Gamme'] ?></p>
+        <a class="prix" href=""><?= $produit['Prix'] ?></a>
         <p>
-            <?= $aShowroom['description'] ?>
+            <?= $produit['description'] ?>
         </p>
     </div>
 </div>
