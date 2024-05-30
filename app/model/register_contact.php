@@ -1,7 +1,7 @@
 <?php
 session_start();
 $host = 'localhost';
-$db = 'contact_mayel';
+$db = 'contactmodel';
 $user = 'root';
 $pass = '';
 $charset = 'utf8mb4';

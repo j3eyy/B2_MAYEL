@@ -1,11 +1,21 @@
 <?php
 
+<<<<<<< HEAD
 //Bryan
 
-function getProduit(PDO $pdo, $nom, $description, $image) {
+function getProduits(PDO $pdo) {
     $sql = "SELECT * FROM produit";
-    $stmt = $pdo->prepare($sql);
-    $produit = $stmt->fetchColumn();
-    return $produit;
+    $stmt = $pdo->query($sql);
+    $produits = $stmt->fetchAll();
+    return $produits;
 }
 
+
+=======
+function getDatabaseConnexion()
+{
+    $dsn = 'mysql:dbname=contactmodel;host=localhost;charset=utf8';
+    $username = 'root';
+    $password = '';
+}
+>>>>>>> b1086de9b41a955f5eb6e334c5379dda9f55379a
