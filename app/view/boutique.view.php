@@ -8,4 +8,4 @@
           } else {
             $photo = 'defaut.png';
           }
-?>
+          ?>
