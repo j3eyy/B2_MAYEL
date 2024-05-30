@@ -12,6 +12,21 @@
   }
 
  
+<<<<<<< HEAD
+=======
+
+
+
+.debut{
+    background: black;
+    padding: 2%;
+    width: 45%;
+    margin: auto;
+    align-items: center;text-align: center;
+
+}
+
+>>>>>>> parent of c541f3e (Merge branch 'main' of https://github.com/j3eyy/B2_MAYEL)
 .debut h1{
     color: rgb(255, 255, 255);
     font-family: 'Love regular';
@@ -115,7 +130,11 @@ form {
   }
 
 
+<<<<<<< HEAD
   .formulaire {
+=======
+  form p{
+>>>>>>> parent of c541f3e (Merge branch 'main' of https://github.com/j3eyy/B2_MAYEL)
     color: rgb(255, 255, 255);
 	font-family: 'fibra thin';
 	font-size: 11px;
@@ -144,8 +163,27 @@ form {
     font-size: 20px;
 }
 
+<<<<<<< HEAD
 
 
+=======
+#RS1, #RS2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+#RS1 img {
+    margin-bottom: 30px;
+}
+
+#RS2 img:hover {
+    width: 85px;
+    height: 85px;
+    border: solid 4px black;
+}
+>>>>>>> parent of c541f3e (Merge branch 'main' of https://github.com/j3eyy/B2_MAYEL)
 
 
 iframe{
