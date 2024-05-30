@@ -1,9 +1,12 @@
 <?php
+// JEREMY
 session_start();
 // 1 - Récupérer, calculer ou déclarer les données
 include 'app/model/connexionBD.php';
 include 'app/model/biere.model.php';
 
+<<<<<<< HEAD
+=======
 if (empty($_GET['page']) || !ctype_digit($_GET['page']) || $_GET['page'] < 1) {
     $_SESSION["message"] = 'Erreur de connexion.';
     header('Location: accueil.php');
@@ -14,6 +17,7 @@ $numStudent = intval($_GET['num']);
 
 $page_title = 'Bière - ' . $biere['firstname']  . ' ' . $biere['lastname'];
 
+>>>>>>> 4aa99ee7c26cea1f1a1687682f47110df02a2c02
 
 // 2 - Construire la vue et l'injecter dans la variable $content
 ob_start();
