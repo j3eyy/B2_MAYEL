@@ -33,7 +33,7 @@
             </section>
         </div>
         <div id="fondateur">
-            <h2 class="titres">Fondateur</h2>
+            <h3 class="titres">Fondateur</h3>
             <ul class="img3">
                 <li><img src="public\images\amin.jpg" alt="Amin Miladi"></li></a>
               <li><img src="public\images\charles.jpg" alt="Charles Vilaine"></li></a>
