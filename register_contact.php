@@ -32,3 +32,4 @@ $email = $_POST['email'];
 $message = $_POST['message'];
 
 
+insertContactMessage($pdo, $prenom, $nom, $email, $message);
