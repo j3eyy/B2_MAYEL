@@ -3,16 +3,15 @@
 	margin: 0px;
 	font-family: "fibra light";
 	max-width: 100%;
+
 }
 
 @font-face {
-	font-family: "Futura";
-	src: url("");
+	font-family: "abc";
+	src: url("../font/FUTURA55REGULAR.TTF");
   }
 
  
-
-
 
 .debut{
     background: black;
@@ -42,7 +41,9 @@
 
 }
 
-
+h1{
+    font-family: Futura;
+}
 .infos{
     width: 100%;
 
