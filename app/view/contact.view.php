@@ -49,20 +49,11 @@
     </div>
 
     <section class="carte">
-    <div id="RS2">
-            <h2>Nous rencontrer ? </h2>
-        </div>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2636.8855087495062!2d2.569094076745706!3d48.631172916669236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e5e3a008e29283%3A0x2951926768f8937!2s240%20Rue%20de%20la%20Motte%2C%2077550%20Moissy-Cramayel!5e0!3m2!1sfr!2sfr!4v1716495993604!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
 
-    <div class="nous-suivre">
-        <div id="RS2">
-            <h2>Vous souhaitez nous contacter ?</h2>
-        </div>
-        <div id="RS1">
-            <div class="nous"><img src="public/images/instagram.webp" alt="le compte instagram de la marque ">Notre Compte Instagram</div>
-            <div class="nous"><img src="public/images/mail.webp"alt="l'adresse e-mail de notre marque">psychelabiere@gmail.com</div>
-        </div>
+ 
+
         
     </div>
 

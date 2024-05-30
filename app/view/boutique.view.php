@@ -1,4 +1,3 @@
-
 <?php foreach ($showroom as $aShowroom): ?>
 
 <div class="photo">

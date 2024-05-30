@@ -1,13 +1,13 @@
 *{
 	padding: 0px;
 	margin: 0px;
-	font-family: "fibra light";
+	font-family: "futura";
 	max-width: 100%;
 
 }
 
 @font-face {
-	font-family: "abc";
+	font-family: "futura";
 	src: url("../font/FUTURA55REGULAR.TTF");
   }
 
@@ -24,13 +24,13 @@
 
 .debut h1{
     color: rgb(255, 255, 255);
-    font-family: 'Love regular';
+    font-family: 'futura';
     font-size: 34px;
 }
 
 .debut h2{
     color: rgb(255, 255, 255);
-    font-family: 'fibra thin';
+    font-family: 'futura';
     font-size: 24px;
     margin-top: 7px;
 }
@@ -41,9 +41,8 @@
 
 }
 
-h1{
-    font-family: Futura;
-}
+
+
 .infos{
     width: 100%;
 
@@ -54,7 +53,7 @@ h1{
 
 .infos p{
     color: rgb(0, 0, 0);
-	font-family: 'fibra light';
+	font-family: 'futura';
 	font-size: 20px;
 	text-align: center;
     justify-content: center;
@@ -78,14 +77,14 @@ form {
   
   label {
     margin-bottom: 10px;
-    font-family: 'fibra regular';
+    font-family: 'futura';
 	font-size: 17px;
     color: #ffffff;
   }
   
   input,
   textarea {
-    font-family: 'fibra regular';
+    font-family: 'futura';
 	font-size: 14px;
     padding: 10px;
     margin-bottom: 20px;
@@ -113,7 +112,7 @@ form {
 	text-decoration: none;
 	text-transform: uppercase;
 	color: rgb(255, 255, 255);
-	font-family: 'fibra thin';
+	font-family: 'futura';
 }
 
 .gamme:hover, .gamme a:hover{
@@ -129,7 +128,7 @@ form {
 
   form p{
     color: rgb(255, 255, 255);
-	font-family: 'fibra thin';
+	font-family: 'futura';
 	font-size: 11px;
 	text-align: justify;
 	line-height: 25px;
