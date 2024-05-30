@@ -46,13 +46,6 @@
             </ul>
         </div>
     </main>
-<div class="icons">
-  <div class="circle"></div>
-  <div class="circle"></div>
-  <div class="circle"></div>
-  <div class="circle"></div>
-  <div class="circle"></div>
-  <div class="circle"></div>
-</div>
-</body>a
+
+</body>
 </html>
