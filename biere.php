@@ -12,7 +12,6 @@ if (empty($_GET['page']) || !ctype_digit($_GET['page']) || $_GET['page'] < 1) {
 
 $numStudent = intval($_GET['num']);
 
-$biere = getBiere(getDatabaseConnexion(), $numStudent);
 $page_title = 'Bière - ' . $biere['firstname']  . ' ' . $biere['lastname'];
 
 
