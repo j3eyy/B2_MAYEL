@@ -1,3 +1,4 @@
+
 <div class="fiche_biere">
     <div class="gauche">
         <figure class="big_photo">

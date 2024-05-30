@@ -7,3 +7,4 @@ function getProduits(PDO $pdo) {
     $produits = $stmt->fetchAll();
     return $produits;
 }
+
