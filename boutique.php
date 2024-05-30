@@ -14,12 +14,6 @@ if(isset($_SESSION['message'])) {
     unset($_SESSION['message']);
 }
 
-
-if (isset($_GET['page']) && ctype_digit($_GET['page']) && $_GET['page'] > 0 && $_GET['page']<=$nbPages) {
-
-    $numPage = $_GET['page'];
-}
-
 $pdo = getDatabaseConnexion();
 
 

@@ -8,3 +8,4 @@ function getProduit(PDO $pdo, $nom, $description, $image) {
     $produit = $stmt->fetchColumn();
     return $produit;
 }
+
