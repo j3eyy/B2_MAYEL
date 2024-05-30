@@ -1,8 +1,10 @@
 <?php
 
-function getDatabaseConnexion()
-{
-    $dsn = 'mysql:dbname=contactmodel;host=localhost;charset=utf8';
-    $username = 'root';
-    $password = '';
+
+function getProduits(PDO $pdo) {
+    $sql = "SELECT * FROM produit";
+    $stmt = $pdo->query($sql);
+    $produits = $stmt->fetchAll();
+    return $produits;
 }
+
