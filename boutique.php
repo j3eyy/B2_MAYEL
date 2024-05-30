@@ -6,7 +6,6 @@ $css = "boutique.css";
 
 include 'app/model/connexionBD.php';
 include 'app/model/biere.model.php';
-include 'app/view/common/layout.php';
 
 
 if(isset($_SESSION['message'])) {
@@ -24,3 +23,4 @@ ob_start();
 include 'app/view/boutique.view.php';
 $content = ob_get_clean();
 
+include 'app/view/common/layout.php';

@@ -1,11 +1,9 @@
 
 <?php foreach ($showroom as $aShowroom): ?>
-    <div class="carte">
-      <a href="boutique.php?num=<?= $aShowroom['id'] ?>">
-        <?php 
-          if (isset($aShowroom['photo'])) {
-            $photo = 'groupe' . $aShowroom['group'] . '/small/' . $aShowroom['photo'];
-          } else {
-            $photo = 'defaut.png';
-          }
-          ?>
+
+<div class="photo">
+        <a href=session_start();
+    var_dump($photos);
+    exit();><img src="images/kiwimenthe.jpg" width=20% /></a>
+    </div>
+<?php endforeach ?>

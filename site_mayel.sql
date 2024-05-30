@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le : lun. 27 mai 2024 à 06:11
+-- Généré le : jeu. 30 mai 2024 à 14:20
 -- Version du serveur : 8.0.31
 -- Version de PHP : 8.0.26
 
@@ -94,6 +94,33 @@ CREATE TABLE IF NOT EXISTS `commande` (
 
 INSERT INTO `commande` (`NC`, `Référence`, `Prix`, `id_F`) VALUES
 (4564, '9010', '0.99', 3564);
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `contact`
+--
+
+DROP TABLE IF EXISTS `contact`;
+CREATE TABLE IF NOT EXISTS `contact` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `nom` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `prenom` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `email` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `message` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Déchargement des données de la table `contact`
+--
+
+INSERT INTO `contact` (`id`, `nom`, `prenom`, `email`, `message`) VALUES
+(1, 'Vilaine', 'Charles', 'thiienvn@gmail.com', 'caca'),
+(2, 'Vilaine', 'Charles', 'vtacharles@yahoo.com', 'ouhhhh le caca'),
+(3, 'Vilaine', 'Charles', 'charles.vilaine@etu.u-pec.fr', 'babababba'),
+(4, 'Vilaine', 'Charles', 'vtacharles@yahoo.com', 'salut'),
+(6, 'Vilaine', 'Charles', 'vtacharles@yahoo.com', 'salur');
 
 -- --------------------------------------------------------
 
@@ -217,7 +244,7 @@ CREATE TABLE IF NOT EXISTS `produit` (
   `Libelle` varchar(50) NOT NULL,
   `Prix` decimal(2,2) NOT NULL,
   `Gamme` varchar(20) NOT NULL,
-  `photo` varchar(2000) NOT NULL COMMENT 'Mettre les adresses des photos des bières.',
+  `photo` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL COMMENT 'Mettre les adresses des photos des bières.',
   PRIMARY KEY (`id_P`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
@@ -226,13 +253,15 @@ CREATE TABLE IF NOT EXISTS `produit` (
 --
 
 INSERT INTO `produit` (`id_P`, `Libelle`, `Prix`, `Gamme`, `photo`) VALUES
-(2135, 'Hibiscus', '0.99', 'Intense', '');
+(2, 'Hibiscus', '0.99', 'Intense', 'hibiscus.jpg'),
+(0, 'Kiwi - Menthe verte', '0.99', 'Intense', 'kiwimenthe.jpg'),
+(1, 'Fraise des bois - Rhubarbe', '0.99', 'Intense', 'fraiserhu.jpg'),
+(3, 'Vanille', '0.99', 'Intense', 'vanille.jpg'),
+(4, 'Chocolat', '0.99', 'Intense', 'chocolat.jpg'),
+(5, 'Yuzu - Litchi', '0.99', 'Intense', 'yuzulitchi.jpg'),
+(6, 'Safran', '0.99', 'Prestige', 'safran.jpg');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
-
-INSERT INTO `produit` (`photo`) VALUES
-('kiwimenthe.jpg'),('fraiserhu.jpg'),('yuzulitchi.jpg'),('hibiscus.jpg'),('chocolat.jpg'),('vanille.jpg'),('safran.jpg');
-COMMIT;
