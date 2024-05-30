@@ -1,7 +1,9 @@
 
 <?php foreach ($showroom as $aShowroom): ?>
 
-<div class="kiwi">
-        <a href="Pages des bières/Kiwi.html"><img src="images/kiwimenthe.jpg" width=20% /></a>
+<div class="photo">
+        <a href=session_start();
+    var_dump($photos);
+    exit();><img src="images/kiwimenthe.jpg" width=20% /></a>
     </div>
 <?php endforeach ?>
