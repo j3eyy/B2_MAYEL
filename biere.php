@@ -8,7 +8,7 @@ include 'app/model/biere.model.php';
 
 $aShowrow = intval($_GET['num']);
 
-$biere = getProduits(getDatabaseConnexion(), $aShowrow);
+$biere = getProduits(getDatabaseConnexion());
 $page_title = 'Bière - ' . $biere['Libelle'];
 
 

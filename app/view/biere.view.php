@@ -13,9 +13,9 @@
         </figure>
     </div>
     <div class="detail">
-        <p class="nom"><?= $produit['Gamme'] ?> <span><?= $produit['lastname'] ?></span></p>
-        <p class="ddn"><?= $produit['birthdate'] ?></p>
-        <p class="groupe">groupe <span><?= $produit['group'] ?></span></p>
+        <p class="gout"><?= $produit['Libelle'] ?>
+        <p class="gamme"><?= $produit['Gamme'] ?></p>
+        <a class="prix" href=""><?= $produit['Prix'] ?></a>
         <p>
             <?= $produit['description'] ?>
         </p>
