@@ -21,7 +21,7 @@
     </div>
     <div class="infos">
         <p>
-        Il ne suffit que d'une Mayel pour atteindre le ciel.
+        Vous souhaitez prolonger l'expérience Mayel ? Veuillez remplir le formulaire ci dessous.
         </p>
 
         <section class="milieu">
