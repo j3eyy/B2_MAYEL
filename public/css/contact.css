@@ -14,7 +14,6 @@
  
 
 .debut{
-    background: black;
     padding: 2%;
     width: 45%;
     margin: auto;
@@ -23,13 +22,13 @@
 }
 
 .debut h1{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-family: 'futura';
     font-size: 34px;
 }
 
 .debut h2{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-family: 'futura';
     font-size: 24px;
     margin-top: 7px;
