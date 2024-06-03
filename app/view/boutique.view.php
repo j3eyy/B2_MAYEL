@@ -1,5 +1,4 @@
 <?php foreach ($showroom as $aShowroom): ?>
-
 <div class="photo">
         <a href="biere.php";
     var_dump($photos);
