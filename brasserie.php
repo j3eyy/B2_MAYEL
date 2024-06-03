@@ -1,5 +1,11 @@
 <?php
 
+include 'app/model/brasserie.model.php';
+include 'app/model/connexionBD.php';
+
+$pdo = getDatabaseConnexion();
+$students = getEtudiant($pdo);
+
 $nomDePage = "brasserie";
 $css = "brasserie.css";
 
