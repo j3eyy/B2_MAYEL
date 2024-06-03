@@ -1,22 +1,21 @@
 *{
 	padding: 0px;
 	margin: 0px;
-	font-family: "fibra light";
+	font-family: "futura";
 	max-width: 100%;
+  background-color: #000000;
 
 }
 
 @font-face {
-	font-family: "abc";
+	font-family: "futura";
 	src: url("../font/FUTURA55REGULAR.TTF");
   }
 
  
 
 .debut{
-    background: black;
     padding: 2%;
-    width: 45%;
     margin: auto;
     align-items: center;text-align: center;
 
@@ -24,14 +23,14 @@
 
 .debut h1{
     color: rgb(255, 255, 255);
-    font-family: 'Love regular';
-    font-size: 34px;
+    font-family: 'futura';
+    font-size: 100px;
 }
 
 .debut h2{
     color: rgb(255, 255, 255);
-    font-family: 'fibra thin';
-    font-size: 24px;
+    font-family: 'futura';
+    font-size: 50px;
     margin-top: 7px;
 }
 
@@ -41,9 +40,8 @@
 
 }
 
-h1{
-    font-family: Futura;
-}
+
+
 .infos{
     width: 100%;
 
@@ -53,9 +51,9 @@ h1{
 
 
 .infos p{
-    color: rgb(0, 0, 0);
-	font-family: 'fibra light';
-	font-size: 20px;
+    color: rgb(255, 255, 255);
+	font-family: 'futura';
+	font-size: 21px;
 	text-align: center;
     justify-content: center;
 	line-height: 35px;
@@ -78,20 +76,21 @@ form {
   
   label {
     margin-bottom: 10px;
-    font-family: 'fibra regular';
+    font-family: 'futura';
 	font-size: 17px;
     color: #ffffff;
   }
   
   input,
   textarea {
-    font-family: 'fibra regular';
+    font-family: 'futura';
 	font-size: 14px;
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
+    color: white;
   }
   
   textarea {
@@ -113,7 +112,7 @@ form {
 	text-decoration: none;
 	text-transform: uppercase;
 	color: rgb(255, 255, 255);
-	font-family: 'fibra thin';
+	font-family: 'futura';
 }
 
 .gamme:hover, .gamme a:hover{
@@ -129,7 +128,7 @@ form {
 
   form p{
     color: rgb(255, 255, 255);
-	font-family: 'fibra thin';
+	font-family: 'futura';
 	font-size: 11px;
 	text-align: justify;
 	line-height: 25px;
@@ -156,22 +155,6 @@ form {
     font-size: 20px;
 }
 
-#RS1, #RS2 {
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 3%;
-    margin-top: 3%;
-}
-
-#RS1 img {
-    margin-bottom: 30px;
-}
-
-#RS2 img:hover {
-    width: 85px;
-    height: 85px;
-    border: solid 4px black;
-}
 
 
 iframe{
