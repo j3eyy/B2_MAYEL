@@ -1,5 +1,5 @@
 <?php
-require_once 'config_local.php';
+require_once 'config.php';
 
 function getDatabaseConnexion() {
     $dsn = 'mysql:dbname='. DB_NAME .';host=localhost;charset=utf8';
