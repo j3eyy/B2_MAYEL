@@ -24,13 +24,13 @@
 .debut h1{
     color: rgb(255, 255, 255);
     font-family: 'futura';
-    font-size: 50px;
+    font-size: 100px;
 }
 
 .debut h2{
     color: rgb(255, 255, 255);
     font-family: 'futura';
-    font-size: 30px;
+    font-size: 50px;
     margin-top: 7px;
 }
 
@@ -90,6 +90,7 @@ form {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
+    color: white;
   }
   
   textarea {
