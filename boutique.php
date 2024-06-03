@@ -14,7 +14,7 @@ if(isset($_SESSION['message'])) {
 }
 
 $pdo = getDatabaseConnexion();
-$showroom = getProduits($pdo, $produit);
+$showroom = getProduits($pdo);
 
 $page_title = 'boutique';
 
