@@ -19,7 +19,7 @@ Après l'ébullition, le moût est rapidement refroidi pour préparer son incorp
     </p></br>
 
     <div class="concassage" >
-        <img src="public/images/concassage.png" width=30%/>
+        <img src="public/images/concassage.png" />
     </div>
 
     <div class="lavage" >
