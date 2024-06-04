@@ -6,8 +6,6 @@
     </P></br>
 </div>
 
-    <div class="image1">
-        <img src=
 <div class = "description2">
     <p>
     Un brassage exquis commence par la sélection minutieuse des matières premières, où chaque ingrédient apporte sa propre nuance à la symphonie de saveurs. Pour cette recette de bière, nous nous appuyons sur une base solide de malt, avec des variétés comme le Pale Ale et le Malt Chocolat pour une profondeur de goût inégalée, accompagnées de flocons d'avoine pour une texture veloutée et du Carared pour une touche de douceur caramélisée. Les houblons, tels que le Styrian Goldings Celeia, l'East Kent Goldings et le Huell Melon, ajoutent des arômes subtils et des amertumes équilibrées à chaque gorgée. Quant à la levure, la SafAle S-04 et la 1968 London ESB Ale apportent leur caractère distinctif, assurant une fermentation impeccable et des notes de fermentation harmonieuses. Enfin, pour une touche de décadence, nous incorporons du cacao en poudre, sublimant ainsi cette création brassicole unique. Avec une attention méticuleuse à chaque détail, chaque lot est une œuvre d'art en bouteille, prête à être dégustée par les connaisseurs les plus exigeants.
@@ -20,8 +18,21 @@ Le lavage et la filtration de la maische suivent, où le moût est séparé de l
 Après l'ébullition, le moût est rapidement refroidi pour préparer son incorporation des levures, qui joueront un rôle vital dans la fermentation. Une fois ensemencé, le moût entre dans une phase de fermentation haute, où les levures transforment les sucres en éthanol et en CO2, apportant également une palette riche en saveurs à notre bière. Pendant environ 36 jours, cette fermentation prendra place, nourrissant notre breuvage en devenant une création pleine de caractère et de complexité. La bière au chocolat qui en résulte sera un véritable délice pour les sens, mariant habilement les notes riches de malt et de cacao avec l'amertume subtile des houblons, pour une expérience de dégustation véritablement exceptionnelle.
     </p></br>
 
+    <div class="concassage" >
+        <img src="public/images/concassage.png" width=30%/>
+    </div>
+
+    <div class="lavage" >
+        <img src="public/images/Lavage.png" />
+    </div>
+
+    <div class="filtration" >
+        <img src="public/images/Filtration.png" />
+    </div>
+
     <p>
     Le processus biologique qui se déroule au cœur de notre brasserie est une véritable symphonie de transformations, orchestrée par les levures et les ingrédients soigneusement sélectionnés. Sous leur influence, le moût se métamorphose, libérant des bulles d'éthanol et de CO2, tandis que les sucres complexes se transforment en glucose, nourrissant les levures et donnant vie à notre bière. Chaque jour, nous surveillons attentivement la densité du moût, observant son évolution avec un mélange d'anticipation et de fascination. Ce processus, minutieusement contrôlé depuis le concassage des malts jusqu'à l'ensemencement des levures, garantit non seulement la qualité et la constance de nos produits, mais aussi la création de saveurs uniques et inoubliables. C'est dans cette alchimie complexe que naît l'essence même de notre passion brassicole, une fusion d'art et de science qui se révèle à chaque gorgée, invitant les amateurs de bière à découvrir les merveilles cachées derrière chaque bouteille.   
     </p></br>
+
     </div>
 </body>
