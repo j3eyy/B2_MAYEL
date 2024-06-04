@@ -37,13 +37,18 @@
                 </p>
             </section>
         </div>
+
+        <h3 class="titres">Fondateur</h3>
+        
+        <section>
         <div id="fondateur">
-            <h3 class="titres">Fondateur</h3>
+            
             <?php foreach ($students as $etudiant) : ?>
-                <a href="#"><img src="public\images\<?=$etudiant['Photo']?>" alt="Amin Miladi"></a>
+                <a href="fiche.php?num=<?= $etudiant['id'] ?>"><img src="public\images\<?=$etudiant['Photo']?>" alt="Amin Miladi"></a>
                 <p><?= $etudiant['nom'] ?></p>
             <?php endforeach ?>
-        </div>
+        </section>
+    </div>
     </main>
 
 </body>
