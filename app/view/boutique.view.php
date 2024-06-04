@@ -5,5 +5,3 @@
     exit();><img src="public/images/<?= $aShowroom['photo'] ?>" width=20% /></a>
     </div>
 <?php endforeach ?>
-
-// query
