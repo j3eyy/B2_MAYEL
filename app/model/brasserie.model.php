@@ -4,7 +4,7 @@
 function getEtudiant(int $etudiant, PDO $pdo) {
     $sql= "SELECT * FROM etudiant WHERE id=:id";
     $statement= $pdo->prepare($sql);
-    $statement->bindParam('id:',$etudiant,PDO::PARAM_INT);
+    $statement->bindParam(':id',$etudiant,PDO::PARAM_INT);
     $statement->execute();
     $affichageunique=$statement->fetch();
 

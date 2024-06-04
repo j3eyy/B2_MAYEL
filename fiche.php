@@ -9,9 +9,9 @@ if (empty($_GET['num']) || !ctype_digit($_GET['num']) || $_GET['num'] < 1){
 }
 
 $numStudent = intval($_GET['num']);
-$pdo = getcDatabase();
+$pdo = getDatabaseConnexion();
 
-$student = getStudent($pdo, $numStudent);
+$student = getEtudiant($numStudent, $pdo);
 
 $page_title = 'brasserie - ' . $student['prenom']  . ' ' . $student['nom'];
 
@@ -19,4 +19,7 @@ $page_title = 'brasserie - ' . $student['prenom']  . ' ' . $student['nom'];
 ob_start();
 include 'app/view/fiche.view.php';
 $content = ob_get_clean();
+
+// 3 - Génération du code HTML de la page à partir du layout
+include 'app/view/common/layout.php';
 
