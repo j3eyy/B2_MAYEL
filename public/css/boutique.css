@@ -8,7 +8,7 @@ main {
 
 
 .intense {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: xx-large;
     font-family: 'Futura LT', sans-serif;
     margin-left: 42.2%;
@@ -19,7 +19,7 @@ main {
 
 
 .prestige {
-    color: white;
+    color: black;
     font-size: xx-large;
     font-family: 'Futura LT', sans-serif;
     margin-left: 41.6%;
