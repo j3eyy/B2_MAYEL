@@ -24,15 +24,21 @@
 }
 
 .info h1 {
-  font-size: 36px; /* ajuster la taille du titre */
   /* margin-bottom: 10px; */
   color: #ffffff; /* ajuster la couleur du texte */
+  font-size: 4rem;
+    position: relative;
+    top: 260px;
+    left: 13px;
 }
 
 
 .info p {
-  font-size: 18px; /* ajuster la taille du paragraphe */
+  font-size: 20px; /* ajuster la taille du paragraphe */
   color: #ffffff; /* ajuster la couleur du texte */
+  position: relative;
+    top: 195px;
+    left: 30px;
 }
 
 /* Style pour le reste du site */
