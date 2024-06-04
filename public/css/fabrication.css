@@ -2,3 +2,16 @@ body {
     background-color: black;
     color: white;
 }
+
+@font-face {
+	font-family: "futura";
+	src: url("../font/FUTURA55REGULAR.TTF");
+  }
+
+.concassage {
+    margin-left: 50px;
+}
+
+lavage {
+    margin-left: 70%;
+}
