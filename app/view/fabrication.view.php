@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fabrication</title>
+    <link rel="stylesheet" type="text/css" href="../../public/css/fabrication.css" />
+
+</head>
 
 <body>
     <div class = "description1">
