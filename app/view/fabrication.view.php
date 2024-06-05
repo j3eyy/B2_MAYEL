@@ -10,6 +10,8 @@
 </head>
 
 <body>
+
+<main>
     <div class = "description1">
     <P>Nos techniques de brassage et notre choix méticuleux d'ingrédients garantissent une bière de qualité supérieure, avec des saveurs riches et des arômes distinctifs. Chaque étape du processus est soigneusement contrôlée pour produire des bières uniques et délicieuses.
     Nous espérons que cette plongée dans les coulisses de notre brasserie vous permettra    de mieux apprécier le savoir-faire et la passion qui se cachent derrière chaque bouteille.
@@ -40,9 +42,11 @@ Après l'ébullition, le moût est rapidement refroidi pour préparer son incorp
         <img src="public/images/Filtration.png" />
     </div>
 
+    <div class="description3">
     <p>
     Le processus biologique qui se déroule au cœur de notre brasserie est une véritable symphonie de transformations, orchestrée par les levures et les ingrédients soigneusement sélectionnés. Sous leur influence, le moût se métamorphose, libérant des bulles d'éthanol et de CO2, tandis que les sucres complexes se transforment en glucose, nourrissant les levures et donnant vie à notre bière. Chaque jour, nous surveillons attentivement la densité du moût, observant son évolution avec un mélange d'anticipation et de fascination. Ce processus, minutieusement contrôlé depuis le concassage des malts jusqu'à l'ensemencement des levures, garantit non seulement la qualité et la constance de nos produits, mais aussi la création de saveurs uniques et inoubliables. C'est dans cette alchimie complexe que naît l'essence même de notre passion brassicole, une fusion d'art et de science qui se révèle à chaque gorgée, invitant les amateurs de bière à découvrir les merveilles cachées derrière chaque bouteille.   
     </p></br>
 
     </div>
+</main>
 </body>
