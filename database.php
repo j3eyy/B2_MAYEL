@@ -1,6 +1,6 @@
 <?php 
 
-$bieresIntense = [
+$bieres = [
     1 => [
         'nom' => 'MAYEL INTENSE CHOCOLAT',
         'description'=> 'la bière ou tout à commencer',
@@ -31,12 +31,10 @@ $bieresIntense = [
         'description'=> 'la bière ou tout à commencer',
         'image' => 'public\images\yuzulitchi.jpg',
     ],
-];
 
-$bieresPrestige = [
-    1 => [
-        'nom' => 'MAYEL PRESTIGE',
+    7 => [
+        'nom' => 'MAYEL PRESTIGE SAFRAN',
         'description'=> 'la bière ou tout à commencer',
-        'image' => 'public\images\chocolat.jpg',
+        'image' => 'public\images\safran.jpg',
     ],
 ];
