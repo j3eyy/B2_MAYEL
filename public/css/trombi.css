@@ -118,11 +118,12 @@ header p {
 
   .fiche {
     margin-top: 30px;
+    margin-bottom: 100px;
   }
 
   .detail {
-    position: relative;
-    top: 4rem;
+    /* position: relative; */
+    /* top: 4rem; */
   }
 
   .detail p.nom {
