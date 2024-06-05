@@ -9,9 +9,11 @@ body {
   }
 
 .concassage {
+    display: inline-block;
     margin-left: 35%;
 }
 
 .lavage {
+    display: inline-block;
     margin-left: 70%;
 }
