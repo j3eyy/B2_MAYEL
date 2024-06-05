@@ -1,14 +1,14 @@
 <div class="fiche_biere">
-    <div class="biere">
-        <div class="Titre_biere"><?= htmlspecialchars($beer['nom']) ?></div>
-        <figure class="big_photo">
-            <div class="photo">
-                <img src="<?= htmlspecialchars($beer['image']) ?>" alt="<?= htmlspecialchars($beer['nom']) ?>" width="20%" />
-            </div>
-            <div class="description_biere">
+    <class="biere">
+        
+            
+                <img id="produit" src="<?= htmlspecialchars($beer['image']) ?>" alt="<?= htmlspecialchars($beer['nom']) ?>" width="20%" />
+            
+            <div class="Titre_biere"><?= htmlspecialchars($beer['nom']) ?></div>
+            
                 <p><?= htmlspecialchars($beer['description']) ?></p>
-            </div>
-            <button><a href="#">Ajouter au panier</a></button>
-        </figure>
+            
+            <button class="achat"><a href="#">Ajouter au panier</a></button>
+        
     </div>
 </div>
