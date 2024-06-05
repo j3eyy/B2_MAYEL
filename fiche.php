@@ -14,6 +14,7 @@ $pdo = getDatabaseConnexion();
 $student = getEtudiant($numStudent, $pdo);
 
 $page_title = 'brasserie - ' . $student['prenom']  . ' ' . $student['nom'];
+$css='trombi.css';
 
 // 2 - Construire la vue et l'injecter dans la variable $content
 ob_start();
