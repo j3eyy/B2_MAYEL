@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="">
 <div class="fiche">
     <div class="gauche">
         <figure class="big_photo">

@@ -38,7 +38,7 @@
             </section>
         </div>
 
-        <h3 class="titres">Fondateur</h3>
+        <h3 class="titres">Fondateurs</h3>
         
         <section>
         <div id="fondateur">
