@@ -8,3 +8,6 @@ function getProduits(PDO $pdo) {
     return $produits;
 }
 
+
+
+

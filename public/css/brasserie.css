@@ -1,241 +1,262 @@
 /* Style pour l'image et le texte à côté */
 .img {
-    float: left;
-    width: 40%; /* ajuster la taille de l'image */
-    margin: 20px;
-  }
+  float: left;
+  width: 40%; /* ajuster la taille de l'image */
+  margin: 20px;
+}
+
+.img img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; /* ajouter un radius pour arrondir les coins */
+}
+
+.info {
+  /* float: right; */
+  /* width: 50%; */ /* ajuster la taille du texte */
+  /* margin: 20px; */
+  /* text-align: right; */ /* aligner le texte à droite */
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.info h1 {
+  /* margin-bottom: 10px; */
+  color: #ffffff; /* ajuster la couleur du texte */
+  font-size: 4rem;
+    position: relative;
+    top: 260px;
+    left: 13px;
+}
+
+
+.info p {
+  font-size: 20px; /* ajuster la taille du paragraphe */
+  color: #ffffff; /* ajuster la couleur du texte */
+  position: relative;
+    top: 195px;
+    left: 30px;
+}
+
+/* Style pour le reste du site */
+main {
+  clear: both; /* pour que le contenu suivant soit placé en dessous de l'image et du texte */
+  padding: 20px;
   
-  .img img {
+}
+
+#histoire {
+  background-color: #f7f7f7; /* ajouter un fond clair */
+  padding: 40px;
+  border-radius: 10px; /* ajouter un radius pour arrondir les coins */
+  margin: 60px auto;
+  text-align: center;
+  align-content: center;
+}
+
+ .titres {
+  font-size: 24px; /* ajuster la taille des titres */
+  margin-bottom: 10px;
+color: white;  }
+
+
+#fondateur {
+  margin-top: 100px;
+  justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 75px;
+
+}
+#fondateur img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.img3, .img2 {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img3 li, .img2 li {
+  margin: 10px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin: 10px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: adelia;
+    src: url(../fonts/adelia.otf);
+}
+
+@font-face {
+    font-family: arthemis;
+    src: url(../fonts/Arthemis.otf);
+}
+
+
+body::before {
+    background-color: #000000;
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
     width: 100%;
-    height: auto;
-    border-radius: 10px; /* ajouter un radius pour arrondir les coins */
-  }
-  
-  .info {
-    /* float: right; */
-    /* width: 50%; */ /* ajuster la taille du texte */
-    /* margin: 20px; */
-    /* text-align: right; */ /* aligner le texte à droite */
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  }
-  
-  .info h1 {
-    font-size: 36px; /* ajuster la taille du titre */
-    /* margin-bottom: 10px; */
-    color: #ffffff; /* ajuster la couleur du texte */
-  }
-  
-  
-  .info p {
-    font-size: 18px; /* ajuster la taille du paragraphe */
-    color: #ffffff; /* ajuster la couleur du texte */
-  }
-  
-  /* Style pour le reste du site */
-  main {
-    clear: both; /* pour que le contenu suivant soit placé en dessous de l'image et du texte */
-    padding: 20px;
-    
-  }
-  
-  #histoire {
-    background-color: #f7f7f7; /* ajouter un fond clair */
-    padding: 20px;
-    border-radius: 10px; /* ajouter un radius pour arrondir les coins */
-  }
-  
-   .titres {
-    font-size: 24px; /* ajuster la taille des titres */
-    margin-bottom: 10px;
-    color: black; /* ajuster la couleur du texte */
+    z-index: -1;
+
+    background-image:linear-gradient(
+        220deg,
+      
+        rgb(118 89 78 / 0%)
+      ),  
+      url(../images/stacked-waves-haikei.svg); 
+ 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
-  #fondateur .titres{
-      color: white; /* ajuster la couleur du texte */
+body {
+    font-size: 14px;
+    font-family: Verdana;
+}
+
+h1,header p {
+    font-family: adelia;
+    font-size: 2rem;
+    text-align: center;
+}
+
+header p { 
+    font-size: 0.8rem;
+}
+
+
+  main {
+    max-width: 900px;
+    margin: auto;
   }
-  
-  #fondateur {
-    margin-top: 20px;
+
+  a {
+    text-decoration: none;
+    
   }
-  
-  .img3, .img2 {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
+
+  .carte {
+    display: inline-block;
+    width: 22.5%;
+    margin: 1%;
+    border: 2px solid black;
+    background-color:rgb(205 205 205 / 81%) ;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 1%;
+    box-shadow: 7px 7px 4px 0px gray;
+    vertical-align: top;
+    height: 290px;
+    
   }
-  
-  .img3 li, .img2 li {
-    margin: 10px;
-  }
-  
-  .icons {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-  }
-  
-  .circle {
-    width: 20px;
-    height: 20px;
-    background-color: #ccc;
-    border-radius: 50%;
-    margin: 10px;
-  }
-  * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-  }
-  
-  @font-face {
-      font-family: adelia;
-      src: url(../fonts/adelia.otf);
-  }
-  
-  @font-face {
-      font-family: arthemis;
-      src: url(../fonts/Arthemis.otf);
-  }
-  
-  
-  body::before {
-      background-color: #000000;
-      content: '';
-      position: fixed;
-      top: 0;
-      left: 0;
-      height: 100%;
-      width: 100%;
-      z-index: -1;
-  
-      background-image:linear-gradient(
-          220deg,
-        
-          rgb(118 89 78 / 0%)
-        ),  
-        url(../images/stacked-waves-haikei.svg); 
+.photo img {
+    width: 100%;
+     border-radius: 100%;
+}
+
+  .photo {
+    width: 120px;
    
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-    }
-  
-  body {
-      font-size: 14px;
-      font-family: Verdana;
+    margin: auto;
   }
-  
-  h1,header p {
-      font-family: adelia;
-      font-size: 2rem;
-      text-align: center;
+
+
+  .big_photo{
+    width: 400px;
+    margin: auto;
   }
-  
-  header p { 
-      font-size: 0.8rem;
+
+.infos {
+    line-height: 1.5rem;
+}
+  .nom {
+    font-size: 1.3rem;
+    font-weight: bold;
   }
-  
-  
-    main {
-      max-width: 900px;
-      margin: auto;
-    }
-  
-    a {
-      text-decoration: none;
-      
-    }
-  
-    .carte {
-      display: inline-block;
-      width: 22.5%;
-      margin: 1%;
-      border: 2px solid black;
-      background-color:rgb(205 205 205 / 81%) ;
-      text-align: center;
-      margin-bottom: 10px;
-      padding: 1%;
-      box-shadow: 7px 7px 4px 0px gray;
-      vertical-align: top;
-      height: 290px;
-      
-    }
-  .photo img {
-      width: 100%;
-       border-radius: 100%;
+  .nom span {
+   text-transform: uppercase;
   }
-  
-    .photo {
-      width: 120px;
-     
-      margin: auto;
-    }
-  
-  
-    .big_photo{
-      width: 400px;
-      margin: auto;
-    }
-  
-  .infos {
-      line-height: 1.5rem;
+
+  .desc {
+    margin-top: 2%;
+    font-size: 0.8rem;
+    font-style: italic;
+    text-align: left;
   }
-    .nom {
-      font-size: 1.3rem;
-      font-weight: bold;
-    }
-    .nom span {
-     text-transform: uppercase;
-    }
-  
-    .desc {
-      margin-top: 2%;
-      font-size: 0.8rem;
-      font-style: italic;
-      text-align: left;
-    }
-  
-    .gauche {
-      float: left;
-      width:50%;
-    }
-  
-    .fiche {
-      margin-top: 30px;
-    }
-  
-    .detail {
-      position: relative;
-      top: 4rem;
-    }
-  
-    .detail p.nom {
-      font-size: 3rem;
-    }
-    .detail p {
-      font-size: 1.5rem;
-      margin-top: 1rem;
-    }
-  
-    #emplacement {   
-       display: grid;
-      grid-template-columns: 1fr 1fr;
-      justify-items: center;
-      gap: 20px;
-  
-    }
-  
-    img {
-      width: 100%;
-    }
-  
-    .img-bra {
-      width: 80%;
-      padding: 50px;
-    }
+
+  .gauche {
+    float: left;
+    width:50%;
+  }
+
+  .fiche {
+    margin-top: 30px;
+  }
+
+  .detail {
+    position: relative;
+    top: 4rem;
+  }
+
+  .detail p.nom {
+    font-size: 3rem;
+  }
+  .detail p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  #emplacement {   
+     display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 20px;
+
+  }
+
+  img {
+    width: 120%;
+    
+  }
+
+  .img-bra {
+    width: 80%;
+    padding: 50px;
+    position: relative;
+    left: -47px;
+  }
