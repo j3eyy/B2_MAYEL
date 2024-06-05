@@ -17,7 +17,7 @@ if(isset($_SESSION['message'])) {
 $pdo = getDatabaseConnexion();
 $showroom = getProduits($pdo);
 
-$page_title = 'biere - ' . $bieresIntense['nom'];
+$page_title = 'biere - ' . $showroom['nom'];
 
 
 ob_start();
