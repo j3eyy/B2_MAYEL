@@ -24,15 +24,21 @@
 }
 
 .info h1 {
-  font-size: 36px; /* ajuster la taille du titre */
   /* margin-bottom: 10px; */
   color: #ffffff; /* ajuster la couleur du texte */
+  font-size: 4rem;
+    position: relative;
+    top: 260px;
+    left: 13px;
 }
 
 
 .info p {
-  font-size: 18px; /* ajuster la taille du paragraphe */
+  font-size: 20px; /* ajuster la taille du paragraphe */
   color: #ffffff; /* ajuster la couleur du texte */
+  position: relative;
+    top: 195px;
+    left: 30px;
 }
 
 /* Style pour le reste du site */
@@ -44,8 +50,11 @@ main {
 
 #histoire {
   background-color: #f7f7f7; /* ajouter un fond clair */
-  padding: 20px;
+  padding: 40px;
   border-radius: 10px; /* ajouter un radius pour arrondir les coins */
+  margin: 60px auto;
+  text-align: center;
+  align-content: center;
 }
 
  .titres {
@@ -55,13 +64,21 @@ color: white;  }
 
 
 #fondateur {
-  margin-top: 20px;
-  display: flex;
-  flex-wrap: wrap;
+  margin-top: 100px;
   justify-content: center;
-  align-items: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 75px;
 
 }
+#fondateur img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 
 .img3, .img2 {
   list-style: none;
@@ -233,11 +250,13 @@ header p {
   }
 
   img {
-    width: 15%;
+    width: 120%;
     
   }
 
   .img-bra {
     width: 80%;
     padding: 50px;
+    position: relative;
+    left: -47px;
   }
