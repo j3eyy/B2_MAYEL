@@ -1,7 +1,7 @@
 <?php
 
 $nomDePage = "accueil";
-$css= "accueil.css";
+$css= "public\css\accueil.css";
 
 // Construire la vue et l'injecter dans la variable $content
 ob_start();
