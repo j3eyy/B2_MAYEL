@@ -1,17 +1,101 @@
-.fiche_biere {
-    background-color: black;
-    color: white;
-    display: grid;
-    justify-content: space-around;
+body {
+    background-color: #000; /* Fond noir */
+    color: white; /* Texte en blanc */
+    margin: 0;
+    padding: 0;
+    font-family: "futura";
 }
 
-img {
-    margin: auto;
-    width: 35em;
-    height: auto;
+@font-face {
+	font-family: "futura";
+	src: url("../font/FUTURA55REGULAR.TTF");
+  }
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #000; /* Fond noir pour le header */
+}
+
+.header img {
+    height: 50px;
+    margin-right: auto; /* Logo aligné à gauche */
+}
+
+
+
+.fiche_biere {
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center;
+    flex-direction: column; /* Pour aligner l'image au-dessus des infos */
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+#labiere {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#produit {
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; 
+}
+
+.Titre_biere {
+    font-family: "futura";
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-family: "futura";
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.prix-panier {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
+}
+
+.prix {
+    font-family: "futura";
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .achat {
-    width: 15%;
-    height: 7%;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.achat:hover {
+    transition: 0.75s;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(255, 255, 255);
 }
