@@ -34,6 +34,7 @@
 
                     <br> Avec une distribution exclusive, Mayel incarne la sophistication et le raffinement, offrant une expérience gustative unique.
                 </p>
+                </div>
             </section>
         </div>
 
