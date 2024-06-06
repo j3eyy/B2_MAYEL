@@ -5,14 +5,10 @@
 }
 
 @font-face {
-    font-family: adelia;
-    src: url(../fonts/adelia.otf);
+    font-family: futura;
+    src: url(../font/FUTURA55REGULAR.TTF);
 }
 
-@font-face {
-    font-family: arthemis;
-    src: url(../fonts/Arthemis.otf);
-}
 
 body::before {
     content: '';
@@ -25,11 +21,8 @@ body::before {
 
     background-image:linear-gradient(
         220deg,
-        rgb(255 255 255),
         rgb(118 89 78 / 0%)
-      ),  
-      url(../images/stacked-waves-haikei.svg); 
- 
+      ),
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -37,7 +30,8 @@ body::before {
 
 body {
     font-size: 14px;
-    font-family: Verdana;
+    font-family:futura;
+    background-color: black;
 }
 
 h1,header p {
@@ -75,12 +69,12 @@ header p {
     
   }
 .photo img {
-    width: 100%;
+    width: 178%;
      border-radius: 100%;
 }
 
   .photo {
-    width: 120px;
+    width: 162px;
    
     margin: auto;
   }
@@ -114,11 +108,12 @@ header p {
   }
 
   .fiche {
-    margin-top: 30px;
+    margin-top: 130px;
     margin-bottom: 100px;
   }
 
   .detail {
+    color: white;
     /* position: relative; */
     /* top: 4rem; */
   }

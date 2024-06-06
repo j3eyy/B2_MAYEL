@@ -57,9 +57,15 @@ main {
 }
 
  .titres {
-  font-size: 24px; /* ajuster la taille des titres */
+  font-size: 28px; /* ajuster la taille des titres */
   margin-bottom: 10px;
 color: white;  }
+
+.titre{
+  font-size: 35px; /* ajuster la taille des titres */
+  margin-bottom: 10px;
+color: black;
+}
 
 #fondateur {
   margin-top: 100px;
@@ -109,14 +115,10 @@ color: white;  }
 }
 
 @font-face {
-    font-family: adelia;
-    src: url(../fonts/adelia.otf);
+    font-family: futura;
+    src: url(../font/FUTURA55REGULAR.TTF);
 }
 
-@font-face {
-    font-family: arthemis;
-    src: url(../fonts/Arthemis.otf);
-}
 
 body::before {
     background-color: #000000;
@@ -142,7 +144,7 @@ body::before {
 
 body {
     font-size: 14px;
-    font-family: Verdana;
+    font-family: futura;
 }
 
 h1,header p {

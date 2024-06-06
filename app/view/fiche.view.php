@@ -9,7 +9,7 @@
                 $photo = 'defaut.png';
             }
             ?>
-            <img src="public/images/<?= $student['Photo']?>" alt="photo de <?= $student['prenom'] ?> <?= $student['nom'] ?>">
+            <img class="photo" src="public/images/<?= $student['Photo']?>" alt="photo de <?= $student['prenom'] ?> <?= $student['nom'] ?>">
         </figure>
     </div>
     <div class="detail">
