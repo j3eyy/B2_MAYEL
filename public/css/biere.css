@@ -13,9 +13,9 @@ body {
 
 .fiche_biere {
     display: flex;
-    justify-content: center; /* Centre horizontalement */
+    justify-content: center;
     align-items: center;
-    flex-direction: column; /* Pour aligner l'image au-dessus des infos */
+    flex-direction: column; 
     width: 80%;
     margin: 0 auto;
     padding-top: 50px;
@@ -84,4 +84,8 @@ body {
     padding: 10px 20px;
     border-radius: 5px;
     border: 2px solid rgb(255, 255, 255);
+}
+
+.livraison {
+    margin-top: 5em;
 }
