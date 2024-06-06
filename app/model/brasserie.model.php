@@ -1,6 +1,5 @@
 <?php
 
-
 function getEtudiant(int $etudiant, PDO $pdo) {
     $sql = "SELECT * FROM etudiant WHERE id=:id";
     $statement = $pdo->prepare($sql);
@@ -18,6 +17,5 @@ function getEtudiants(PDO $pdo) {
     $etudiant = $stmt->fetchAll();
     return $etudiant;
 }
-
 
 ?>

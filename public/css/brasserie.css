@@ -32,7 +32,6 @@
     left: 13px;
 }
 
-
 .info p {
   font-size: 20px; /* ajuster la taille du paragraphe */
   color: #ffffff; /* ajuster la couleur du texte */
@@ -62,13 +61,12 @@ main {
   margin-bottom: 10px;
 color: white;  }
 
-
 #fondateur {
   margin-top: 100px;
   justify-content: center;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 75px;
 
@@ -78,7 +76,6 @@ color: white;  }
   height: 100%;
   object-fit: cover;
 }
-
 
 .img3, .img2 {
   list-style: none;
@@ -121,7 +118,6 @@ color: white;  }
     src: url(../fonts/Arthemis.otf);
 }
 
-
 body::before {
     background-color: #000000;
     content: '';
@@ -159,7 +155,6 @@ header p {
     font-size: 0.8rem;
 }
 
-
   main {
     max-width: 900px;
     margin: auto;
@@ -194,7 +189,6 @@ header p {
    
     margin: auto;
   }
-
 
   .big_photo{
     width: 400px;
