@@ -11,21 +11,6 @@ body {
 	src: url("../font/FUTURA55REGULAR.TTF");
   }
 
-.header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 0;
-    background-color: #000; /* Fond noir pour le header */
-}
-
-.header img {
-    height: 50px;
-    margin-right: auto; /* Logo aligné à gauche */
-}
-
-
-
 .fiche_biere {
     display: flex;
     justify-content: center; /* Centre horizontalement */
@@ -56,8 +41,9 @@ body {
 }
 
 .Titre_biere {
+    text-decoration: underline;
     font-family: "futura";
-    font-size: 24px;
+    font-size: 35px;
     font-weight: bold;
     margin-bottom: 10px;
 }
