@@ -4,7 +4,7 @@ session_start();
 $nomDePage = "biere";
 $css = "biere.css";
 
-include 'database.php'; // Assurez-vous que ce fichier contient vos bières
+include 'database.php'; 
 include 'app/model/connexionBD.php';
 include 'app/model/biere.model.php';
 
@@ -32,4 +32,3 @@ if (isset($_GET['id'])) {
 } else {
     echo "ID de bière manquant.";
 }
-?>
