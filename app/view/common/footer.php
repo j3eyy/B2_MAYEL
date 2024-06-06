@@ -2,7 +2,7 @@
 <footer>
     <section class="foot1">
         <div class="partiedroite">
-            <p><div id="rempla">MAYEL</div></p>
+            <p><div id="mayel">MAYEL</div></p>
             <button ><a id="pbutton" href="contact.php">CONTACT</a></button>
             <p id="pdufooter">3 rue Michel le Comte, 75003 Paris</p>
             <p id="pdufooter">mayelbiere.contact@gmail.com</p>
@@ -12,7 +12,6 @@
 
     <section class="partiegauche">
         <div>
-    
             <ul>
                 <li id="reseau"><a href=""><img id="imgfoot" src="public\images\Instagram.png"></a></li>
             </ul>
