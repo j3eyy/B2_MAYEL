@@ -54,17 +54,23 @@ main {
   margin: 60px auto;
   text-align: center;
   align-content: center;
+  width: 130%;
+  position: relative;
+  margin-left: -145px;
 }
 
  .titres {
-  font-size: 28px; /* ajuster la taille des titres */
-  margin-bottom: 10px;
-color: white;  }
-
-.titre{
   font-size: 35px; /* ajuster la taille des titres */
   margin-bottom: 10px;
+color: white;
+font-family: 'futura'; 
+ }
+
+.titre{
+  font-size: 40px; /* ajuster la taille des titres */
+  margin-bottom: 10px;
 color: black;
+font-family: 'futura';
 }
 
 #fondateur {
@@ -261,3 +267,10 @@ header p {
     position: relative;
     left: -47px;
   }
+
+  #Nous{
+    font-family: 'futura';
+    font-size: 20px;
+  }
+
+  
