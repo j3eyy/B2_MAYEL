@@ -3,9 +3,15 @@ li#reseau {
     display: inline-block;
 }
 
+@font-face {
+	font-family: "futura";
+	src: url("../font/FUTURA55REGULAR.TTF");
+  }
+
 
 
 footer {
+    font-family: "futura";
     background-color: black;
     color: white;
 }
@@ -15,7 +21,7 @@ footer {
     box-sizing: border-box;
     padding: 0;
     margin:0 ;
-    font-family:sans-serif;
+    font-family: "futura";
     font-weight: 400;
     font-style: bold;
 
@@ -59,10 +65,10 @@ footer {
     margin-right: 72px;
 }
 
-#rempla {
+#mayel {
     font-size: 50px;
     color: white;
-    font-family: roc-grotesk, sans-serif;
+    font-family: "futura";
     font-weight: 400;
     font-style: bold;
 }
@@ -73,7 +79,7 @@ button {
     width: 35%;
     /* margin-top: 5px;
     margin-bottom: 5px; */
-    font-family: roc-grotesk, sans-serif;
+    font-family: "futura";
     font-weight: 400;
     font-style: bold;
     font-size: 15px;

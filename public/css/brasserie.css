@@ -1,21 +1,5 @@
-/* Style pour l'image et le texte à côté */
-.img {
-  float: left;
-  width: 40%; /* ajuster la taille de l'image */
-  margin: 20px;
-}
-
-.img img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px; /* ajouter un radius pour arrondir les coins */
-}
 
 .info {
-  /* float: right; */
-  /* width: 50%; */ /* ajuster la taille du texte */
-  /* margin: 20px; */
-  /* text-align: right; */ /* aligner le texte à droite */
   padding: 50px;
   display: flex;
   flex-direction: column;
@@ -24,7 +8,6 @@
 }
 
 .info h1 {
-  /* margin-bottom: 10px; */
   color: #ffffff; /* ajuster la couleur du texte */
   font-size: 4rem;
     position: relative;
@@ -54,12 +37,24 @@ main {
   margin: 60px auto;
   text-align: center;
   align-content: center;
+  width: 130%;
+  position: relative;
+  margin-left: -145px;
 }
 
  .titres {
-  font-size: 24px; /* ajuster la taille des titres */
+  font-size: 35px; /* ajuster la taille des titres */
   margin-bottom: 10px;
-color: white;  }
+color: white;
+font-family: 'futura'; 
+ }
+
+.titre{
+  font-size: 40px; /* ajuster la taille des titres */
+  margin-bottom: 10px;
+color: black;
+font-family: 'futura';
+}
 
 #fondateur {
   margin-top: 100px;
@@ -71,36 +66,15 @@ color: white;  }
     grid-row-gap: 75px;
 
 }
+#fondateur a:hover img {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
 #fondateur img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-.img3, .img2 {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: space-between;
-}
-
-.img3 li, .img2 li {
-  margin: 10px;
-}
-
-.icons {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-}
-
-.circle {
-  width: 20px;
-  height: 20px;
-  background-color: #ccc;
-  border-radius: 50%;
-  margin: 10px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
 }
 * {
     margin: 0;
@@ -109,14 +83,10 @@ color: white;  }
 }
 
 @font-face {
-    font-family: adelia;
-    src: url(../fonts/adelia.otf);
+    font-family: futura;
+    src: url(../font/FUTURA55REGULAR.TTF);
 }
 
-@font-face {
-    font-family: arthemis;
-    src: url(../fonts/Arthemis.otf);
-}
 
 body::before {
     background-color: #000000;
@@ -142,11 +112,11 @@ body::before {
 
 body {
     font-size: 14px;
-    font-family: Verdana;
+    font-family: futura;
 }
 
 h1,header p {
-    font-family: adelia;
+    font-family: futura;
     font-size: 2rem;
     text-align: center;
 }
@@ -254,3 +224,10 @@ header p {
     position: relative;
     left: -47px;
   }
+
+  #Nous{
+    font-family: 'futura';
+    font-size: 20px;
+  }
+
+  

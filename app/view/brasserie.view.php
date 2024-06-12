@@ -24,8 +24,9 @@
 
     <main>
         <div id="histoire">
-            <h2 class="titres">À PROPOS DE NOUS</h2>
+            <h2 class="titre">À PROPOS DE NOUS</h2>
             <section>
+            <div id="Nous">
                 <p>
                     Née de l'aventure d'un groupe de jeunes passionnés à la recherche de nouvelles saveurs, Mayel a établi son restaurant bistronomique dans le Troisième arrondissement de Paris.
 
@@ -33,6 +34,7 @@
 
                     <br> Avec une distribution exclusive, Mayel incarne la sophistication et le raffinement, offrant une expérience gustative unique.
                 </p>
+                </div>
             </section>
         </div>
 
