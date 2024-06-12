@@ -1,4 +1,6 @@
 <?php
+// Cette page est destiné à enregistrer les soumissions du formulaire de contact dans notre base de données
+
 // On démarre une session pour pouvoir utiliser les variables de session
 session_start();
 
