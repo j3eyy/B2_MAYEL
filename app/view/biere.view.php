@@ -16,7 +16,7 @@
                 <a class="achat" href="#">Ajouter au panier</a>
             
             </div>
-            <p>Livraison Gratuite à partir de 50€ en France.</p>
+            <p class ="livraison">Livraison Gratuite à partir de 50€ en France.</p>
         </section>
     </section>
 </div>
