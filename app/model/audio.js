@@ -1,17 +1,18 @@
 function play(idPlayer, control) {
-    console.log("yes")
+    console.log("yes");
     let player = document.querySelector('#' + idPlayer);
     if (player.paused) {
-    player.play();
-    control.textContent = 'Pause';
+        player.play();
+        control.textContent = 'Pause';
     } else {
-    player.pause();
-    control.textContent = 'Play';
+        player.pause();
+        control.textContent = 'Play';
     }
-    }
-    function resume(idPlayer) {
+}
+
+function resume(idPlayer) {
+
     let player = document.querySelector('#' + idPlayer);
     player.currentTime = 0;
     player.pause();
-    }
-    
+}
