@@ -1,5 +1,7 @@
 <?php
 
+// Cette page sert à insérer et récupérer des contacts dans la base de donnée 
+
 function insertContactMessage($pdo, $prenom, $nom, $email, $message) {
     $sql = 'INSERT INTO contact (prenom, nom, email, message) VALUES (:prenom, :nom, :email, :message)';
     
